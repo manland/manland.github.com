@@ -1,4 +1,4 @@
-body, header, h1, h2, nav, blockquote, div, article {
+body, header, h1, h2, nav, blockquote, div, article, span {
 	margin: 0;
 	padding: 0;
 	display: inline-block;
@@ -10,6 +10,11 @@ body {
 
 a {
 	color: #04A8DA;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 header {
@@ -69,17 +74,34 @@ article {
 	word-wrap: break-word;
 	padding: 5px;
 	text-align: left;
+	position: relative;
 }
 
-article .min {
-	
+.article-title {
+	display: block;
 }
 
-@media screen and (max-width: 800px) {
+.publish-date {
+	font-size: 10px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	padding-right: 5px;
+}
+
+.article-more {
+	font-size: 10px;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	padding-right: 5px;
+}
+
+/*@media screen and (max-width: 800px) {
   article {
   	width: 20%;
   }
-}
+}*/
 
 @media screen and (max-width: 500px) {
   .subtitle {
