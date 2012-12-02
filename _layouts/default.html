@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <meta name="author" content="Romain Maneschi" />
-    <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
-    <link rel="stylesheet" type="text/css" href="/css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
     <script type="text/javascript">
 
@@ -23,12 +22,23 @@
   </head>
   <body>
     <header>
-      <h1>@rmmaneschi <em>(Romain Maneschi)</em></h1>
-      <blockquote>
-        Développeur web pour <a href="http://itkweb.fr">ITK</a>. <a href="/me.html">A propos de moi</a>
+      <blockquote class="title">
+        <h1>Romain Maneschi</h1> - <h2>Artisant développeur</h2>
+      </blockquote>
+      <nav>
+        <input type="button" value="CV" onclick="cvClick();" />
+        <script type="text/javascript">
+          function cvClick() {
+          }
+        </script>
+        <input type="button" value="Projets" />
+        <input type="button" value="Articles" />
+      </nav>
+      <blockquote class="subtitle">
+        Développeur web pour <a href="http://itkweb.fr" target="_blank">ITK</a>
       </blockquote>
     </header>
-    <div>
+    <div class="container">
       {{ content }}
     </div>
     <footer>
