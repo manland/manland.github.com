@@ -78,13 +78,21 @@ article {
 	vertical-align: top;
 	border: 1px solid #888;
 	border-radius: 3px;
-	width: 30%;
 	box-shadow: 3px 3px 0px #aaa; 
 	margin: 5px;
 	word-wrap: break-word;
 	padding: 5px 5px 15px 5px;
 	text-align: left;
 	position: relative;
+}
+
+article.min {
+	width: 30%;
+}
+
+article.max {
+	width: 90%;
+	max-width: 700px;
 }
 
 .article-category {
