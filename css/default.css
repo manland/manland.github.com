@@ -60,6 +60,16 @@ nav, .subtitle {
 	float: right;
 }
 
+.social-network {
+	position: absolute;
+	top: -15px;
+	right: 10px;
+}
+
+.social-network-tab {
+	display: none;
+}
+
 .container, .container-max, article {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -166,12 +176,12 @@ nav, .subtitle {
 }*/
 
 @media screen and (max-width: 500px) {
-  .sub-presentation {
+  .sub-presentation, .subtitle, .social-network {
   	display: none;
   }
 
-  .subtitle {
-  	display: none;
+  .social-network-tab {
+  	display: inline;
   }
 
   .container, .container-max {
