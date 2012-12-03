@@ -8,6 +8,10 @@ body {
 	background-color: #D5EDEA;
 }
 
+header, body, .container {
+	width: 100%;
+}
+
 a {
 	color: #04A8DA;
 	text-decoration: none;
@@ -22,7 +26,6 @@ header {
 	position: fixed;
 	top:0;
 	display: block;
-	width: 100%;
 	color: #D5EDEA;
 }
 
@@ -57,6 +60,12 @@ input[type="button"]:hover {
 	float: right;
 }
 
+.container, article {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
 .container {
 	margin-top:100px;
 	padding-left: 2%;
@@ -72,13 +81,14 @@ article {
 	box-shadow: 3px 3px 0px #aaa; 
 	margin: 5px;
 	word-wrap: break-word;
-	padding: 5px;
+	padding: 5px 5px 15px 5px;
 	text-align: left;
 	position: relative;
 }
 
 .article-title {
 	display: block;
+	text-align: center;
 }
 
 .publish-date {
@@ -95,6 +105,24 @@ article {
 	right: 5px;
 	bottom: 5px;
 	padding-right: 5px;
+}
+
+.projet:before, .article:before, .cv:before {
+	color: #888;
+	float: left;
+	font-size: 15px;
+}
+
+.projet:before {
+	content:"♺";
+}
+
+.article:before {
+	content: "✍";
+}
+
+.cv:before {
+	content: "⌘";
 }
 
 /*@media screen and (max-width: 800px) {

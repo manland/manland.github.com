@@ -26,34 +26,56 @@
         <h1>Romain Maneschi</h1> - <h2>Artisan développeur</h2>
       </blockquote>
       <nav>
-        <input type="button" value="CV" onclick="cvClick();" />
+        <input type="button" value="⌘ CV" onclick="cvClick();" />
         <script type="text/javascript">
           function cvClick() {
+            var children = document.getElementById('container').getElementsByTagName('h2');
+            for (var i = 0; i < children.length; i++) {
+              if(children[i].getAttribute("class").indexOf("cv") !== -1) {
+                children[i].parentNode.style.display = '';
+              } else {
+                children[i].parentNode.style.display = 'none';
+              }
+            };
           }
         </script>
-        <input type="button" value="Projets" />
-        <input type="button" value="Articles" />
+        <input type="button" value="♺ Projets" onclick="projetsClick();" />
+        <script type="text/javascript">
+          function projetsClick() {
+            var children = document.getElementById('container').getElementsByTagName('h2');
+            for (var i = 0; i < children.length; i++) {
+              if(children[i].getAttribute("class").indexOf("projet") !== -1) {
+                children[i].parentNode.style.display = '';
+              } else {
+                children[i].parentNode.style.display = 'none';
+              }
+            };
+          }
+        </script>
+        <input class="article" type="button" value="✍ Articles" />
       </nav>
       <blockquote class="subtitle">
         Développeur web pour <a href="http://itkweb.fr" target="_blank">ITK</a>
       </blockquote>
     </header>
-    <div class="container">
+    <div id="container" class="container">
       <article>
-        <h2 class="article-title">test34</h2>
+        <h2 class="article-title projet">test34</h2>
         <span class="publish-date">02 Dec 2012</span>
-        blablabla blablabla blablabla blablablablablabla
+        Projet blablabla blablabla blablabla blablablablablabla
         <a href="#" class="article-more">En lire plus...</a>
       </article>
       <article>
-        <h2 class="article-title">test34</h2>
+        <h2 class="article-title article">test34</h2>
         <span class="publish-date">02 Dec 2012</span>
-        blablabla blablabla blablabla blablablablablabla
+        article blablabla blablabla blablabla blablablablablabla
+        <a href="#" class="article-more">En lire plus...</a>
       </article>
       <article>
-        <h2 class="article-title">test34</h2>
+        <h2 class="article-title cv">test34</h2>
         <span class="publish-date">02 Dec 2012</span>
-        blablabla blablabla blablabla blablablablablabla
+        cv blablabla blablabla blablabla blablablablablabla
+        <a href="#" class="article-more">En lire plus...</a>
       </article>
     </div>
   </body>
