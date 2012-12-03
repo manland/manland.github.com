@@ -1,4 +1,4 @@
-body, header, h1, h2, nav, blockquote, div, .article, span {
+body, header, h1, h2, nav, div, .article, span {
 	margin: 0;
 	padding: 0;
 	display: inline-block;
