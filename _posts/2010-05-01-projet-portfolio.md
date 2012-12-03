@@ -5,7 +5,8 @@ categories: [projet, action-script]
 resume: L'application sur laquelle vous êtes actuellement.
 ---
 <div class="container-img">
-  <img src="http://man.lydiman.net/cv/ActionScript/PresentationProjets/PresentationProjets_html.png" alt="screenshot 1" width="50%" />
+  <img src="http://man.lydiman.net/cv/ActionScript/PresentationProjets/PortfolioV0.1.png" alt="screenshot 1" width="50%" />
+  <img src="http://man.lydiman.net/cv/ActionScript/PresentationProjets/PortfolioV0.png" alt="screenshot 1" width="50%" />
 </div>
 
 Cette application regroupe toutes les applications que j'ai pu réaliser.
