@@ -87,6 +87,10 @@ article {
 	position: relative;
 }
 
+.article-category {
+	position: absolute;
+}
+
 .article-title {
 	display: block;
 	text-align: center;
@@ -105,8 +109,7 @@ article {
 	font-size: 10px;
 	position: absolute;
 	right: 5px;
-	bottom: 5px;
-	padding-right: 5px;
+	bottom: 2px;
 }
 
 .projet:before, .article:before, .cv:before {
