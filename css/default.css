@@ -141,10 +141,10 @@ article {
 
 .container-img, .container-link {
 	text-align: center;
+	display: block;
 }
 
 .container-link a {
-	display: block;
 	padding: 10px;
 }
 
