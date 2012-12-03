@@ -10,7 +10,7 @@ resume: Un jeux de tower-défense inversé.
   <img src="http://man.lydiman.net/cv/Javascript/blobRising/level1.png" alt="screenshot 3" width="50%" />
 </div>
 
-Application native réalisée en 1 mois, pour le concours <a href="http://js13kgames.com" target="_blank">js13kGames</a>.
+Jeu web réalisée en 1 mois, pour le concours <a href="http://js13kgames.com" target="_blank">js13kGames</a>.
 
 Le but du jeux est d'aider le blob (goutte) à aller jusqu'à la source (en vert). Il faut éviter les murs et les puits (en rouge).
 
