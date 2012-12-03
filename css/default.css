@@ -139,6 +139,10 @@ article {
 	content: "⌘";
 }
 
+.container-img {
+	text-align: center;
+}
+
 /*@media screen and (max-width: 800px) {
   article {
   	width: 20%;
