@@ -141,6 +141,15 @@ article {
 	display: block;
 }
 
+.container-img {
+	max-height: 200px;
+	overflow: auto;
+}
+
+.container-img img {
+	display: inline;
+}
+
 .container-link a {
 	padding: 10px;
 }
