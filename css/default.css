@@ -139,8 +139,12 @@ article {
 	content: "⌘";
 }
 
-.container-img {
+.container-img, .container-link {
 	text-align: center;
+}
+
+.container-link a {
+	padding: 10px;
 }
 
 /*@media screen and (max-width: 800px) {
