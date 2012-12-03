@@ -1,4 +1,4 @@
-body, header, h1, h2, nav, blockquote, div, .article, span {
+body, header, h1, h2, nav, blockquote, div, .article-max, span {
 	margin: 0;
 	padding: 0;
 	display: inline-block;
@@ -86,7 +86,7 @@ nav, .subtitle {
 	text-align: center;
 }
 
-.article, .article-min {
+.article-max, .article-min {
 	background-color: #fefefe;
 	vertical-align: top;
 	border: 1px solid #888;
@@ -99,7 +99,7 @@ nav, .subtitle {
 	position: relative;
 }
 
-.article {
+.article-max {
 	width: 90%;
 	max-width: 700px;
 }
