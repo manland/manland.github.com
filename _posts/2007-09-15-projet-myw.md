@@ -6,8 +6,6 @@ resume: MYW est un éditeur de texte spécialisé dans les langages du web : htm
 ---
 <div class="container-img">
   <img src="http://man.lydiman.net/cv/C++/MYW/myw.png" alt="MYW screenshot 1" width="50%" />
-  <img src="http://man.lydiman.net/cv/C++/MYW/FTPBrowser.png" alt="MYW screenshot 2" width="50%" />
-  <img src="http://man.lydiman.net/cv/C++/MYW/WebBrowser.png" alt="MYW screenshot 3" width="50%" />
 </div>
 
 Projet comptant pour une unité d'enseignement, réalisé en groupe de 7 personnes. Nous avons eu 
