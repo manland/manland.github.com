@@ -170,12 +170,16 @@ nav {
 }*/
 
 @media screen and (max-width: 500px) {
+  .sub-presentation {
+  	display: none;
+  }
+
   .subtitle {
   	display: none;
   }
 
   .container, .container-max {
-    margin-top:130px;
+    margin-top:100px;
     text-align: center;
   }
 
