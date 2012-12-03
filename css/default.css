@@ -40,7 +40,7 @@ nav, .subtitle {
 	padding: 5px;
 }
 
-input[type="button"] {
+.btn {
 	width: auto;
 	padding: 5px;
 	cursor:pointer;
@@ -52,7 +52,7 @@ input[type="button"] {
 	border-radius: 5px;
 }
 
-input[type="button"]:hover {
+.btn:hover {
 	background-position: 0 -15px;
 	text-decoration: none;
 }

@@ -1,0 +1,16 @@
+---
+layout: default
+title: Romain Maneschi's CV
+---
+
+{% for post in site.posts %}
+	{% if post.category == 'cv' %}
+		<article>
+			<span class="article-category {{ post.category }}"></span>
+		  <h2 class="article-title">{{ post.title }}</h2>
+		  <span class="publish-date">{{ post.date | date_to_string }}</span>
+		  {{ post.resume }}
+		  <a href="{{ post.url }}" class="article-more">En lire plus...</a>
+		</article>
+	{% endif %}
+{% endfor %}
