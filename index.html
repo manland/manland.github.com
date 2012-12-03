@@ -5,9 +5,7 @@ title: Romain Maneschi's Life
 
 {% for post in site.posts %}
 <article>
-  <h2 class="article-title {{ post.category }}">
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </h2>
+  <h2 class="article-title {{ post.category }}">{{ post.title }}</h2>
   <span class="publish-date">{{ post.date | date_to_string }}</span>
   {{ post.resume }}
   <a href="{{ post.url }}" class="article-more">En lire plus...</a>

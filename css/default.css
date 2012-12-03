@@ -27,6 +27,7 @@ header {
 	top:0;
 	display: block;
 	color: #D5EDEA;
+	z-index: 1;
 }
 
 .title {
@@ -89,6 +90,7 @@ article {
 .article-title {
 	display: block;
 	text-align: center;
+	padding: 10px 0;
 }
 
 .publish-date {

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cueilleur calibreur
+title: Technicien informatique
 category: cv
 resume: Formatage et assemblage de PC.
 ---
