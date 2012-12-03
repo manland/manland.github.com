@@ -70,16 +70,13 @@ nav {
 	-webkit-box-sizing: border-box;
 }
 
-.container {
-	margin-top:100px;
+.container, .container-max {
+	margin-top:80px;
 	padding-left: 2%;
 	padding-right: 2%;
 }
 
 .container-max {
-	margin-top:100px;
-	padding-left: 2%;
-	padding-right: 2%;
 	text-align: center;
 }
 
