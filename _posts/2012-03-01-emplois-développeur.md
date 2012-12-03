@@ -4,5 +4,6 @@ title: Développeur
 category: cv
 resume: Développement d'applications GWT/Java.
 ---
-end=02-2012
-Ingénieur en recherche et développement pour ITK
+* Depuis Mars 2012 
+* Ingénieur en recherche et développement pour ITK
+* Site : <a href="http://itkweb.fr/" target="_blank">itkweb.fr</a>

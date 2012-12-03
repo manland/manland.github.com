@@ -4,8 +4,8 @@ title: Saisonnier agricole
 category: cv
 resume: Ramassage des fruits, responsable des appareils de calibrage des fruits (cerises et abricots).
 ---
-* De Juin 2000 à Aout 2000
-* PME familiale - Producteur de fruits (cerises et abricots)
+* De Juin à Août 2000
+* Pour le Mas Lagriaude­ qui est une PME familiale - Producteur de fruits (cerises et abricots)
 * Adresse : ­ Mas Lagriaude­ 30800­ Saint-Gilles­ France
 * Service : Cueilleur­ Calibreur­
 * Tâche : Ramassage des fruits, responsable des appareils de calibrage des fruits.
