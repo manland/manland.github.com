@@ -1,4 +1,4 @@
-body, header, h1, h2, nav, blockquote, div, article, span {
+body, header, h1, h2, nav, blockquote, div, .article, span {
 	margin: 0;
 	padding: 0;
 	display: inline-block;
@@ -80,7 +80,7 @@ nav {
 	text-align: center;
 }
 
-article {
+.article, .article-min {
 	background-color: #fefefe;
 	vertical-align: top;
 	border: 1px solid #888;
@@ -91,6 +91,15 @@ article {
 	padding: 5px 5px 15px 5px;
 	text-align: left;
 	position: relative;
+}
+
+.article {
+	width: 90%;
+	max-width: 700px;
+}
+
+.article-min {
+	width: 30%;
 }
 
 .article-category {
@@ -165,12 +174,12 @@ article {
   	display: none;
   }
 
-  .container {
+  .container, .container-max {
     margin-top:130px;
     text-align: center;
   }
 
-  article {
+  .article-min {
   	width: 90%;
   }
 }

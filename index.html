@@ -4,12 +4,12 @@ title: Romain Maneschi's Life
 ---
 <div class="container">
 {% for post in site.posts %}
-<article style="width:30%;">
+<div class="article-min">
 	<span class="article-category {{ post.categories[0] }}"></span>
   <h2 class="article-title">{{ post.title }}</h2>
   <span class="publish-date">{{ post.date | date_to_string }}</span>
   {{ post.resume }}
   <a href="{{ post.url }}" class="article-more">En lire plus...</a>
-</article>
+</div>
 {% endfor %}
 </div>

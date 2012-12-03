@@ -4,12 +4,12 @@ title: Romain Maneschi's CV
 ---
 <div class="container">
 {% for post in site.categories.cv %}
-  <article style="width:30%;">
-    <span class="article-category {{ post.category }}"></span>
-    <h2 class="article-title">{{ post.title }}</h2>
-    <span class="publish-date">{{ post.date | date_to_string }}</span>
-    {{ post.resume }}
-    <a href="{{ post.url }}" class="article-more">En lire plus...</a>
-  </article>
+<div class="article-min">
+  <span class="article-category {{ post.category }}"></span>
+  <h2 class="article-title">{{ post.title }}</h2>
+  <span class="publish-date">{{ post.date | date_to_string }}</span>
+  {{ post.resume }}
+  <a href="{{ post.url }}" class="article-more">En lire plus...</a>
+</div>
 {% endfor %}
 </div>
