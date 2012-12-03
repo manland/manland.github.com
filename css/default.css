@@ -8,7 +8,7 @@ body {
 	background-color: #D5EDEA;
 }
 
-header, body, .container {
+header, body, .container, .container-max {
 	width: 100%;
 }
 
@@ -61,7 +61,7 @@ nav, .subtitle {
 	float: right;
 }
 
-.container, article {
+.container, , .container-max, article {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -71,6 +71,13 @@ nav, .subtitle {
 	margin-top:100px;
 	padding-left: 2%;
 	padding-right: 2%;
+}
+
+.container-max {
+	margin-top:100px;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: center;
 }
 
 article {
