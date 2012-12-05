@@ -101,7 +101,7 @@ nav, .subtitle {
 	border-radius: 10px 10px 0 10px;
 	margin: 5px;
 	word-wrap: break-word;
-	padding: 5px 5px 15px 5px;
+	padding: 15px;
 	text-align: left;
 	position: relative;
 }
@@ -109,10 +109,11 @@ nav, .subtitle {
 .article-max {
 	width: 90%;
 	max-width: 700px;
+	border-radius: 10px;
 }
 
 .article-min {
-	width: 30%;
+	width: 28%;
 }
 
 .article-category {
@@ -146,7 +147,7 @@ nav, .subtitle {
 	right: 3px;
 	bottom: 0px;
 	color: #fefefe;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .projet:after {
