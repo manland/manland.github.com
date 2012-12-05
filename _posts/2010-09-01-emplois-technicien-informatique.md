@@ -2,7 +2,7 @@
 layout: post
 title: Technicien informatique
 category: cv
-resume: Répondre aux questions des nouveaux étudiants de la <a href="http://www.fdsweb.univ-montp2.fr/" target="_blank">faculté des sciences de Montpellier</a>, essentiellement sur l'informatique.
+resume: Répondre aux questions des nouveaux étudiants de la faculté des sciences de Montpellier, essentiellement sur l'informatique.
 ---
 * De Septembre à Octobre 2010
 * Pour l'Université de Montpellier 2 - Département Informatique
