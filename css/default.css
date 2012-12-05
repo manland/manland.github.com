@@ -53,18 +53,6 @@ header {
 	color: #2F4D57;
 }
 
-.title-cv:after,
-.title-cv:before {
-    content: "";
-    position: absolute;
-    height: 1px;
-    width: 200%;
-    top: 50%;
-    right: 100%;
-    background: #2F4D57;
-}
-.title-cv:after { left: 100%; }
-
 .sub-presentation {
 	color: #D5EDEA;
 	font-size: 25px;
