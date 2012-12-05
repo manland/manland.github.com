@@ -26,6 +26,11 @@
      <div class="title">Romain Maneschi</div>
       <div class="sub-presentation">Artisan développeur</div>
       <nav>
+        {% if page.url contains "index.html" %}
+          <a href="/index.html" class="btn-selected">Accueil</a>
+        {% else %}
+          <a href="/index.html" class="btn">Accueil</a>
+        {% endif %}
         {% if page.categories contains "cv" or page.url contains "cv.html" %}
           <a href="/cv.html" class="btn-selected">⌘ CV</a>
         {% else %}
