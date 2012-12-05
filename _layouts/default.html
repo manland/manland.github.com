@@ -25,7 +25,7 @@
      <div class="title">Romain Maneschi</div>
       <div class="sub-presentation">Artisan développeur</div>
       <nav>
-        {{% if page.categories[0] == "cv" %}}
+        {{% if page.categories contains "cv" %}}
           <a href="/cv.html" class="btn-selected">⌘ CV</a>
         {{% else %}}
           <a href="/cv.html" class="btn">⌘ CV</a>
