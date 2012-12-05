@@ -30,9 +30,21 @@
         {% else %}
           <a href="/cv.html" class="btn">⌘ CV</a>
         {% endif %}
-        <a href="/projets.html" class="btn">♺ Projets</a>
-        <a href="/articles.html" class="btn">✍ Articles</a>
-        <a href="/contact.html" class="btn social-network-tab">Contact</a>
+        {% if page.categories contains "projet" or page.url contains "projets.html" %}
+          <a href="/projets.html" class="btn-selected">♺ Projets</a>
+        {% else %}
+          <a href="/projets.html" class="btn">♺ Projets</a>
+        {% endif %}
+        {% if page.categories contains "article" or page.url contains "articles.html" %}
+          <a href="/articles.html" class="btn-selected">✍ Articles</a>
+        {% else %}
+          <a href="/articles.html" class="btn">✍ Articles</a>
+        {% endif %}
+        {% if page.url contains "contact.html" %}
+          <a href="/contact.html" class="btn-selected social-network-tab">Contact</a>
+        {% else %}
+          <a href="/contact.html" class="btn social-network-tab">Contact</a>
+        {% endif %}
       </nav>
       <div class="social-network" onmouseover="this.style.top='0px';" onmouseout="this.style.top='-15px';">
         <a href="https://twitter.com/RmManeschi" target="_blank"><img src="/img/brand/twitter.png" width="30px" /></a>
