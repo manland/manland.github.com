@@ -5,11 +5,13 @@ title: Romain Maneschi's Articles
 <div class="container">
 {% for post in site.categories.article %}
 <div class="article-min">
-  <span class="article-category {{ post.category }}"></span>
-  <h2 class="article-title">{{ post.title }}</h2>
-  <span class="publish-date">{{ post.date | date_to_string }}</span>
-  {{ post.resume }}
-  <a href="{{ post.url }}" class="article-more">En lire plus...</a>
+  <a class="article-global-link" href="{{ post.url }}">
+    <span class="article-category {{ post.category }}"></span>
+    <h2 class="article-title">{{ post.title }}</h2>
+    <span class="publish-date">{{ post.date | date_to_string }}</span>
+    {{ post.resume }}
+    <a href="{{ post.url }}" class="article-more">En lire plus...</a>
+  </a>
 </div>
 {% endfor %}
 </div>
