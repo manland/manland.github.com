@@ -6,11 +6,11 @@ title: Romain Maneschi's Life
 {% for post in site.posts %}
 <div class="article-min">
   <a class="article-global-link" href="{{ post.url }}">
-  	<span class="article-category {{ post.categories[0] }}"></span>
     <h2 class="article-title">{{ post.title }}</h2>
     <span class="publish-date">{{ post.date | date_to_string }}</span>
     {{ post.resume }}
-    <a href="{{ post.url }}" class="article-more">En lire plus...</a>
+    <span class="article-category"></span>
+    <span class="{{ post.categories[0] }}"></span>
   </div>
 </div>
 {% endfor %}
