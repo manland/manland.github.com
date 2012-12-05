@@ -157,9 +157,8 @@ nav {
 .article-title {
 	display: block;
 	padding-bottom: 10px;
-	font-size: 35px;
+	font-size: 30px;
 	color: #2F4D57;
-	font-family: "Symbol";
 }
 
 .publish-date {
