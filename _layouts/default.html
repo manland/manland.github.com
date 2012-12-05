@@ -25,9 +25,11 @@
      <div class="title">Romain Maneschi</div>
       <div class="sub-presentation">Artisan développeur</div>
       <nav>
-        {{% if page.categories contains "cv" %}}
+        {% if page.categories contains "cv" %}
           <a href="/cv.html" class="btn-selected">⌘ CV</a>
-        {{% endif %}}
+        {% else %}
+          <a href="/cv.html" class="btn">⌘ CV</a>
+        {% endif %}
         <a href="/projets.html" class="btn">♺ Projets</a>
         <a href="/articles.html" class="btn">✍ Articles</a>
         <a href="/contact.html" class="btn social-network-tab">Contact</a>
