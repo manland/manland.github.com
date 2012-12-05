@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Développeur
-category: cv
+categories: [cv, emploi, informatique]
 resume: Développement d'applications GWT/Java.
 ---
 * Depuis Mars 2012 

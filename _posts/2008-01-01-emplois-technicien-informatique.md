@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Technicien informatique
-category: cv
+categories: [cv, emploi, informatique]
 resume: Conseil sur l'achat et pose du matériel informatique pour le camping la vallée heureuse.
 ---
 * De Janvier à Juin 2008

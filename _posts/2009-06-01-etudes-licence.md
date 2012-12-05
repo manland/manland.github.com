@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Licence
-category: cv
+categories: [cv, etudes]
 resume: Licence Informatique.
 ---
 * Licence Informatique, Génie Logiciel à l'Université des Sciences de Montpellier

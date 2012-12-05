@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Webmaster
-category: cv
+categories: [cv, emploi, informatique]
 resume: Réalisations de sites internet.
 ---
 * De Janvien à Décembre 2006

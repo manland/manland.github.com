@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Saisonnier agricole
-category: cv
+categories: [cv, emploi, autre]
 resume: Ramassage des fruits, responsable des appareils de calibrage des fruits (cerises et abricots). Préparation des commandes et livraisons.
 ---
 * De Mai à Juin 2010

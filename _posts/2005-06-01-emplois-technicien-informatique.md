@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Technicien informatique
-category: cv
+categories: [cv, emploi, informatique]
 resume: Formatage et assemblage de PC.
 ---
 * De Juin à Août 2005

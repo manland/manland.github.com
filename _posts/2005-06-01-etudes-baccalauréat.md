@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Baccalauréat
-category: cv
+categories: [cv, etudes]
 resume: Baccalauréat Scientifique.
 ---
 * Baccalauréat Scientifique au Lycée Alphonse Daudet

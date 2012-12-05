@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Technicien informatique
-category: cv
+categories: [cv, emploi, informatique]
 resume: Répondre aux questions des nouveaux étudiants de la faculté des sciences de Montpellier, essentiellement sur l'informatique.
 ---
 * De Septembre à Octobre 2010

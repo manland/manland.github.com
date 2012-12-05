@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Développeur
-category: cv
+categories: [cv, emploi, informatique]
 resume: Développement d'applications Flex/Java.
 ---
 * D'Avril 2011 à Février 2012

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serveur
-category: cv
+categories: [cv, emploi, autre]
 resume: Serveur, le week-end, pour l'hôtel/restaurant Le Jardin Secret.
 ---
 * D'Octobre 2006 à Février 2007

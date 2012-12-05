@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Aide caviste
-category: cv
+categories: [cv, emploi, autre]
 resume: Gestion des pressoirs, prélèvement des densités et températures, préparateur commandes et livreur.
 ---
 * D'Août à Octobre 2008
