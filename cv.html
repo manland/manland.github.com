@@ -3,36 +3,39 @@ layout: default
 title: Romain Maneschi's CV
 ---
 <div class="container">
+
+<div class="title">Formations</div>
+
 {% for post in site.categories.etudes %}
-<div class="article-min">
+<div class="article-max">
   <a class="article-global-link" href="{{ post.url }}">
     <h2 class="article-title">{{ post.title }}</h2>
     <span class="publish-date">{{ post.date | date_to_string }}</span>
     {{ post.resume }}
-    <span class="article-category"></span>
-    <span class="{{ post.categories[0] }}"></span>
   </a>
 </div>
 {% endfor %}
+
+<div class="title">Emplois informatique</div>
+
 {% for post in site.categories.informatique %}
-<div class="article-min">
+<div class="article-max">
   <a class="article-global-link" href="{{ post.url }}">
     <h2 class="article-title">{{ post.title }}</h2>
     <span class="publish-date">{{ post.date | date_to_string }}</span>
     {{ post.resume }}
-    <span class="article-category"></span>
-    <span class="{{ post.categories[0] }}"></span>
   </a>
 </div>
 {% endfor %}
+
+<div class="title">Autres emplois</div>
+
 {% for post in site.categories.autre %}
-<div class="article-min">
+<div class="article-max">
   <a class="article-global-link" href="{{ post.url }}">
     <h2 class="article-title">{{ post.title }}</h2>
     <span class="publish-date">{{ post.date | date_to_string }}</span>
     {{ post.resume }}
-    <span class="article-category"></span>
-    <span class="{{ post.categories[0] }}"></span>
   </a>
 </div>
 {% endfor %}
