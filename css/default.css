@@ -38,15 +38,19 @@ header {
 	z-index: 1;
 }
 
-.title, .sub-presentation {
+.title, .sub-presentation, .title-cv {
 	padding-left: 10px;
 	font-family: "URW Chancery L";
 }
 
-.title {
+.title, .title-cv {
 	display: block;
 	color: #fefefe;
 	font-size: 36px;
+}
+
+.title-cv {
+	color: #2F4D57;
 }
 
 .sub-presentation {
