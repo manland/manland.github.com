@@ -78,9 +78,10 @@ nav {
 	color: #D5EDEA;
 }
 
-.btn-selected {
+.btn-selected, .btn-selected:hover {
 	background-color: #D5EDEA;
 	color: #2F4D57;
+	text-decoration: none;
 }
 
 .btn:hover {
