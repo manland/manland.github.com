@@ -22,7 +22,7 @@ title: Romain Maneschi's CV
 <div class="article-max">
   <a class="article-global-link" href="{{ post.url }}">
     <h2 class="article-title">{{ post.title }}</h2>
-    <span class="publish-date">{{ post.date | date_to_string }}</span>
+    <span class="publish-date">{{ post.date | date:"%b %Y" }}</span>
     {{ post.resume }}
   </a>
 </div>
@@ -34,7 +34,7 @@ title: Romain Maneschi's CV
 <div class="article-max">
   <a class="article-global-link" href="{{ post.url }}">
     <h2 class="article-title">{{ post.title }}</h2>
-    <span class="publish-date">{{ post.date | date_to_string }}</span>
+    <span class="publish-date">{{ post.date | date:"%b %Y" }}</span>
     {{ post.resume }}
   </a>
 </div>

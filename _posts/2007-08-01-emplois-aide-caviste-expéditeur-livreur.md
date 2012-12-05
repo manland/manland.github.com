@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Saisonnier agricole
+title: Aide caviste
 categories: [cv, emploi, autre]
 resume: Gestion des pressoirs, prélèvement des densités et températures, préparateur commandes et livreur.
 ---
