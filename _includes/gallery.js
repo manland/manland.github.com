@@ -6,7 +6,7 @@ var GALLERY = GALLERY || (function(){
         init : function() {
           _images = document.getElementById('urls').innerHTML.split(', ');
           _index = 0;
-          console.log(images);
+          console.log(_images);
         },
         prev : function() {
           _index--;
