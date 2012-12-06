@@ -3,12 +3,9 @@ layout: post
 title: Raja
 categories: [projet, universitaire, java]
 resume: Ce programme de réaliser des recherches parmis une multitude de bases de données.
+images: [http://man.lydiman.net/cv/Java/Raja/appli.png, http://man.lydiman.net/cv/Java/Raja/initialisationSysteme.png, http://man.lydiman.net/cv/Java/Raja/selectQuerySysteme.png]
 ---
-<div class="container-img">
-  <img src="http://man.lydiman.net/cv/Java/Raja/appli.png" alt="screenshot 1" width="50%" />
-  <img src="http://man.lydiman.net/cv/Java/Raja/initialisationSysteme.png" alt="screenshot 2" width="50%" />
-  <img src="http://man.lydiman.net/cv/Java/Raja/selectQuerySysteme.png" alt="screenshot 3" width="50%" />
-</div>
+{% include gallery.html %}
 
 Ce logiciel permet de faire émerger de la connaissance grâce à un système onthologique.
 

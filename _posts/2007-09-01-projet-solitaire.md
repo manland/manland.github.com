@@ -3,10 +3,9 @@ layout: post
 title: Solitaire
 categories: [projet, universitaire, cpp]
 resume: Le solitaire est un jeux de carte bien connu. Voici son application en C++.
+images: [http://man.lydiman.net/cv/C++/Solitaire/Capture.png]
 ---
-<div class="container-img">
-  <img src="http://man.lydiman.net/cv/C++/Solitaire/Capture.png" alt="Solitaire screenshot" width="50%" />
-</div>
+{% include gallery.html %}
 
 Ce projet m'a permis de comprendre le fonctionnement de l'API Qt qui est à l'heure actuelle, l'une des API les plus utilisées en C++. De plus ce petit projet nous a permis de découvrir la programmation par composants, qui est la programmation de toutes les API graphiques. 
 

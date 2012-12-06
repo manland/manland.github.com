@@ -3,10 +3,9 @@ layout: post
 title: ShowMyFaves
 categories: [projet, python]
 resume: Tous vos bookmarks réunis dans une application.
+images: [http://man.lydiman.net/cv/Python/ShowMyFaves/showmyfaves.png]
 ---
-<div class="container-img">
-  <img src="http://man.lydiman.net/cv/Python/ShowMyFaves/showmyfaves.png" alt="screenshot 1" width="50%" />
-</div>
+{% include gallery.html %}
 
 Application native réalisée en 3 semaines, pour le concours <a href="http://developer.ubuntu.com/showdown/" target="_blank">UbuntuAppShowDown</a>. Elle permet de voir tous vos bookmarks d'une nouvelle façon. En effet, ils sont tous centralisés et peuvent être trouvés par une recherche ou encore un système de tag.
 

@@ -3,12 +3,9 @@ layout: post
 title: MYW
 categories: [projet, universitaire, cpp]
 resume: MYW est un éditeur de texte spécialisé dans les langages du web (html, php, css, javascript...). Embarquant un client ftp, et un explorateur web. Le tout en C++ grace à l'API Qt.
+images: [http://man.lydiman.net/cv/C++/MYW/myw.png, http://man.lydiman.net/cv/C++/MYW/FTPBrowser.png, http://man.lydiman.net/cv/C++/MYW/WebBrowser.png]
 ---
-<div class="container-img">
-  <img src="http://man.lydiman.net/cv/C++/MYW/myw.png" alt="MYW screenshot 1" width="50%" />
-  <img src="http://man.lydiman.net/cv/C++/MYW/FTPBrowser.png" alt="MYW screenshot 2" width="50%" />
-  <img src="http://man.lydiman.net/cv/C++/MYW/WebBrowser.png" alt="MYW screenshot 3" width="50%" />
-</div>
+{% include gallery.html %}
 
 Projet comptant pour une unité d'enseignement, réalisé en groupe de 7 personnes. Nous avons eu 
 un semestre pour le faire. Malgrés quelques bugs ce logiciel est fonctionnel. Le client ftp et 

@@ -3,10 +3,9 @@ layout: post
 title: TCPWiki
 categories: [projet, universitaire, cpp]
 resume: TCPWiki est un petit logiciel en console permettant de créer, modifier et supprimer des documents partagés sur un réseaux local.
+images: [http://man.lydiman.net/cv/C++/TcpWiki/TcpWiki.png]
 ---
-<div class="container-img">
-  <img src="http://man.lydiman.net/cv/C++/TcpWiki/TcpWiki.png" alt="Solitaire screenshot" width="50%" />
-</div>
+{% include gallery.html %}
 
 Lorsque vous vous connectez au serveur (autentification pseudo/mot de passe) vous pouvez ajouter 
 ou supprimer des documents s'ils vous appartiennent. De plus si vous avez les droits vous pouvez 

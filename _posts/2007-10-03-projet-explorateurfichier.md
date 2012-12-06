@@ -3,10 +3,9 @@ layout: post
 title: Explorateur de fichier
 categories: [projet, universitaire, python]
 resume: Explorateur de fichier écrit en html et cgi-python.
+images: [http://man.lydiman.net/cv/Python/Explorateur/Explorateur.png]
 ---
-<div class="container-img">
-  <img src="http://man.lydiman.net/cv/Python/Explorateur/Explorateur.png" alt="screenshot 1" width="50%" />
-</div>
+{% include gallery.html %}
 
 Cet explorateur permet en plus des fonctionnalités traditionnelles de changer complètement le skin de l'interface.
 

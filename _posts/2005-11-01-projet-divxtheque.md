@@ -3,10 +3,9 @@ layout: post
 title: DivxTheque
 categories: [projet, python]
 resume: Logiciel permettant l'indexation et la recherche parmis un grand nombre de divx.
+images: [http://man.lydiman.net/cv/Python/DivxTheque/DivxTheque.png]
 ---
-<div class="container-img">
-  <img src="http://man.lydiman.net/cv/Python/DivxTheque/DivxTheque.png" alt="screenshot 1" width="50%" />
-</div>
+{% include gallery.html %}
 
 Projet personnel réalisé en 1ere année de licence informatique. Il permet d'indexer les divx présents dans un dossier et d'aller chercher sur allocine.com tous les renseignements du film. Ensuite il suffit 
 de rechercher un film en fonction du titre, rélisateur, année... pour le retrouver.

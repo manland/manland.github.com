@@ -3,10 +3,9 @@ layout: post
 title: CMS - Lydiman
 categories: [projet, php]
 resume: Permet la gestion de membres, un forum, une gallerie, des news, des statistiques...
+images: [http://man.lydiman.net/cv/Php/Lydiman/Ludiman.png]
 ---
-<div class="container-img">
-  <img src="http://man.lydiman.net/cv/Php/Lydiman/Ludiman.png" alt="screenshot 1" width="50%" />
-</div>
+{% include gallery.html %}
 
 Ce projet personnel, est une application développée depuis une dizaine d'année. J'ai commencé l'html à l'âge de 12 ans et c'est naturellement que je l'ai entièrement repris en php/mysql. Au début nous contions vendre ce CMS en ne modifiant que le skin. Tout est fonctionnel mais par manque de temps nous n'avons jamais fait de pub. De plus les produits des CMS professionnels ce sont concidérablement développés et nous avons abandonné cette idée. Il n'y a aucune sécurité (même les mots de passe des clients ne sont pas cryptés) et le code n'est pas du tout objet donc non réutilisable.
 

@@ -3,12 +3,9 @@ layout: post
 title: Blob rising
 categories: [projet, javascript]
 resume: Un jeux de tower-défense inversé.
+images: [http://man.lydiman.net/cv/Javascript/blobRising/level3.png, http://man.lydiman.net/cv/Javascript/blobRising/regles.png, http://man.lydiman.net/cv/Javascript/blobRising/level1.png]
 ---
-<div class="container-img">
-  <img src="http://man.lydiman.net/cv/Javascript/blobRising/level3.png" alt="screenshot 1" width="50%" />
-  <img src="http://man.lydiman.net/cv/Javascript/blobRising/regles.png" alt="screenshot 2" width="50%" />
-  <img src="http://man.lydiman.net/cv/Javascript/blobRising/level1.png" alt="screenshot 3" width="50%" />
-</div>
+{% include gallery.html %}
 
 Jeu web réalisée en 1 mois, pour le concours <a href="http://js13kgames.com" target="_blank">js13kGames</a>.
 
