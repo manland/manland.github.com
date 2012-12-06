@@ -4,7 +4,7 @@ title: Portfolio
 categories: [projet, action-script]
 resume: L'application sur laquelle vous êtes actuellement.
 ---
-{% include 'gallery.html' %}
+{% include gallery.html %}
 
 Cette application regroupe toutes les applications que j'ai pu réaliser en formation universitaire ou sur mon temps personnel.
 
