@@ -3,8 +3,8 @@ var GALLERY = GALLERY || (function(){
     var _index = 0;
 
     return {
-        init : function(images) {
-          _images = images;
+        init : function() {
+          _images = document.getElementById('urls').innerHTML.split(',');
           _index = 0;
           console.log(images);
         },
@@ -26,3 +26,4 @@ var GALLERY = GALLERY || (function(){
         }
     };
 }());
+GALLERY.init();
