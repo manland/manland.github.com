@@ -1,25 +1,25 @@
 var GALLERY = GALLERY || (function(){
-    var _args = {}; // private
+    var _images = {}; // private
     var _index = 0;
 
     return {
-        init : function(Args) {
-          _args = Args;
+        init : function(images) {
+          _images = images;
           _index = 0;
         },
         prev : function() {
-          index--;
-          if(index < 0) {
-            index = images.length-1;
+          _index--;
+          if(_index < 0) {
+            _index = _images.length-1;
           }
-          document.getElementById('image').src = images[index];
+          document.getElementById('image').src = _images[_index];
         },
         next : function() {
-          index++;
-          if(index > images.length) {
-            index = 0;
+          _index++;
+          if(_index > _images.length) {
+            _index = 0;
           }
-          document.getElementById('image').src = images[index];
+          document.getElementById('image').src = _images[_index];
         }
     };
 }());
