@@ -4,7 +4,7 @@ var GALLERY = GALLERY || (function(){
 
     return {
         init : function() {
-          _images = document.getElementById('urls').innerHTML.split(',');
+          _images = document.getElementById('urls').innerHTML.split(', ');
           _index = 0;
           console.log(images);
         },
