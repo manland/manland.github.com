@@ -1,9 +1,8 @@
 <div class="container-img">
-  <ul>
-  {% for url in page.images %}
-    <li>
-      <img src="{{url}}" alt="{{ page.title }} screenshot" width="250px" height="250px" />
-    </li>
-  {% endfor %}
-  </ul>
+  <a class="btn" href="#" onclick="prevImage()">prev</a>
+  <img src="{{page.images.first}}" alt="{{ page.title }} screenshot" width="250px" height="250px" />
+  <a class="btn" href="#" onclick="nextImage()">next</a>
 </div>
+<script type="text/javascript">
+
+</script>
