@@ -26,3 +26,4 @@ var GALLERY = GALLERY || (function(){
         }
     };
 }());
+GALLERY.init();
