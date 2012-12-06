@@ -4,10 +4,7 @@ title: Portfolio
 categories: [projet, action-script]
 resume: L'application sur laquelle vous êtes actuellement.
 ---
-<div class="container-img">
-  <img src="http://man.lydiman.net/cv/ActionScript/PresentationProjets/PortfolioV0.1.png" alt="screenshot 1" width="50%" />
-  <img src="http://man.lydiman.net/cv/ActionScript/PresentationProjets/PortfolioV0.png" alt="screenshot 1" width="50%" />
-</div>
+{% include 'gallery.html' %}
 
 Cette application regroupe toutes les applications que j'ai pu réaliser en formation universitaire ou sur mon temps personnel.
 
