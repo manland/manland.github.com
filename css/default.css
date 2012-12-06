@@ -194,23 +194,23 @@ nav {
 	display: block;
 }
 
-.container-img {
-	max-height: 200px;
-	overflow: auto;
-}
-
-.container-img li {
-	list-style:none;
-	float:left;
-}
-
-.container-img li img {
-	width: 100%;
-	height: auto;
-}
-
 .container-link a {
 	padding: 10px;
+}
+
+.btn-gallery {
+	width: auto;
+	padding: 5px;
+	cursor:pointer;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	vertical-align: top;
+	padding-top: 15px;
+}
+
+.btn-gallery:hover {
+	color: #fefefe;
+	text-decoration: none;
 }
 
 /*@media screen and (max-width: 800px) {
