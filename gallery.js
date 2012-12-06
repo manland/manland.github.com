@@ -12,6 +12,7 @@ var GALLERY = GALLERY || (function(){
           if(_index < 0) {
             _index = _images.length-1;
           }
+          console.log(_images, _index);
           document.getElementById('image').src = _images[_index];
         },
         next : function() {
@@ -19,6 +20,7 @@ var GALLERY = GALLERY || (function(){
           if(_index > _images.length) {
             _index = 0;
           }
+          console.log(_images, _index);
           document.getElementById('image').src = _images[_index];
         }
     };
