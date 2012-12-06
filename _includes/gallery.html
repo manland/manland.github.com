@@ -1,5 +1,9 @@
 <div class="container-img">
+  <ul>
   {% for url in page.images %}
-    <img src="{{url}}" alt="{{ page.title }} screenshot" width="50%" />
+    <li>
+      <img src="{{url}}" alt="{{ page.title }} screenshot" width="50%" />
+    </li>
   {% endfor %}
+  </ul>
 </div>
