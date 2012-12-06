@@ -13,7 +13,7 @@ var GALLERY = GALLERY || (function(){
             index = images.length-1;
           }
           document.getElementById('image').src = images[index];
-        }
+        },
         next : function() {
           index++;
           if(index > images.length) {
