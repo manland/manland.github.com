@@ -6,6 +6,7 @@ var GALLERY = GALLERY || (function(){
         init : function(images) {
           _images = images;
           _index = 0;
+          console.log(images);
         },
         prev : function() {
           _index--;
