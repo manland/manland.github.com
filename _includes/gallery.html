@@ -1,6 +1,6 @@
 <div class="container-img">
+  <div id="urls">{{% page.images | join:"," %}}</div>
   <a class="btn-gallery" href="#" onclick="GALLERY.prev()">prev</a>
   <img id="image" src="{{page.images.first}}" alt="{{ page.title }} screenshot" width="65%" height="auto" />
   <a class="btn-gallery" href="#" onclick="GALLERY.next()">next</a>
-  <div id="urls" style="display:none">{{% page.images | join:"," %}}</div>
 </div>
