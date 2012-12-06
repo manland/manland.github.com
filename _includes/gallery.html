@@ -1,7 +1,7 @@
+<script type="text/javascript" src="/gallery.js"></script>
 <div class="container-img">
   <a class="btn-gallery" href="#" onclick="GALLERY.prev()">prev</a>
   <img id="image" src="{{page.images.first}}" alt="{{ page.title }} screenshot" width="65%" height="auto" />
   <a class="btn-gallery" href="#" onclick="GALLERY.next()">next</a>
 </div>
 <div id="urls" style="display:none">{{% page.images | join:"," %}}</div>
-<script type="text/javascript" src="/gallery.js"></script>
