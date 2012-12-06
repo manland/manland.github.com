@@ -3,27 +3,6 @@
   <img id="image" src="{{page.images.first}}" alt="{{ page.title }} screenshot" width="65%" height="auto" />
   <a class="btn-gallery" href="#" onclick="nextImage()">next</a>
 </div>
-<script type="text/javascript">
-  var index = 0;
-  var images = {{page.images}};
-
-  function prevImage() {
-    index--;
-    if(index < 0) {
-      index = images.length-1;
-    }
-    showImage();
-  }
-
-  function nextImage() {
-    index++;
-    if(index > images.length) {
-      index = 0;
-    }
-    showImage();
-  }
-
-  function showImage() {
-    document.getElementById('image').src = images[index];
-  }
+<script type="text/javascript" src="/gallery.js">
+  MYLIBRARY.init([{{% page.images %}}]);
 </script>
