@@ -202,11 +202,11 @@ nav {
 .container-img li {
 	list-style:none;
 	float:left;
-	width: 50%;
 }
 
 .container-img li img {
 	width: 100%;
+	height: auto;
 }
 
 .container-link a {
