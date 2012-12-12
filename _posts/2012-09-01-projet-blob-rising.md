@@ -7,7 +7,7 @@ images: [http://man.lydiman.net/cv/Javascript/blobRising/level3.png, http://man.
 ---
 {% include gallery.html %}
 
-Jeu web réalisée en 1 mois, pour le concours <a href="http://js13kgames.com" target="_blank">js13kGames</a>.
+Jeu web réalisé en 1 mois, pour le concours <a href="http://js13kgames.com" target="_blank">js13kGames</a>.
 
 Le but du jeux est d'aider le blob (goutte) à aller jusqu'à la source (en vert). Il faut éviter les murs et les puits (en rouge).
 
