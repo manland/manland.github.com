@@ -28,4 +28,4 @@ N'hésitez pas à répéter et répéter encore, les bienfaits des méthodes agi
 
 Aidez moi, comment puis-je faire dans une telle situation ?
 
-Tous vos avis pour @RmManeschi un jeune développeur agil (tout du moins jusqu'à hier)
+Tous vos avis pour <a href="https://twitter.com/RmManeschi" target="_blank">@RmManeschi</a> un jeune développeur agil (tout du moins jusqu'à hier)
