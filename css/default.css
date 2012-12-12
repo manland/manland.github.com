@@ -6,6 +6,7 @@ body, header, h1, h2, nav, blockquote, div, .article-max, span {
 
 body {
 	background-color: #D5EDEA;
+	text-align: center;
 }
 
 header, body, .container, .container-max {
@@ -36,6 +37,7 @@ header {
 	display: block;
 	color: #D5EDEA;
 	z-index: 1;
+	text-align: left;
 }
 
 .title, .sub-presentation, .title-cv {
@@ -116,6 +118,10 @@ nav {
 	text-align: center;
 }
 
+.container-max {
+	width: auto;
+}
+
 .article-max, .article-min {
 	background-color: #fefefe;
 	vertical-align: top;
@@ -132,6 +138,7 @@ nav {
 	width: 90%;
 	max-width: 700px;
 	border-radius: 10px;
+	display: block;
 }
 
 .article-min {
