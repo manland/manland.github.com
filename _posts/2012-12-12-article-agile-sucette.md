@@ -12,7 +12,7 @@ Petit retour en arrière, nous sommes une PME d'une trentaine de personnes. Edit
 
 Un de nos projets les plus vendus et dont le développement était en sommeil, vient de se réveillé. En effet, notre plus gros partenaire décide de faire pas mal d'évolutions dessus. Malheureusement, ce projet datte de quelques années et la méthologie de l'époque était en tunnel, voir même en sous-marin !
 
-Je me suis dit : pas de problème. De nos jours tout le monde connait les bienfaits des méthodologies agiles, il sera facile de faire comprendre à ce partenaire comment nous travaillons de nos jours. Au vu du titre vous aurait compris, que nenni, le client refuse catégoriquement. Il veut un chiffrage pour l'année 2013 complète, au jour près !
+Je me suis dit : pas de problème. De nos jours tout le monde connait les bienfaits des méthodologies agiles, il sera facile de faire comprendre à ce partenaire comment nous travaillons. Au vu du titre vous aurait compris, que nenni, le client refuse catégoriquement. Il veut un chiffrage pour l'année 2013 complète, au jour près !
 
 Ma responsable me dit que je serais responsable de ce projet (ici on aime les responsables) et donc de facto je sors de l'équipe SCRUM. En effet, pourquoi m'embêter à faire les dayly, planning pocker et autres rituels si je ne participe plus aux projets ? Perte de temps !
 
