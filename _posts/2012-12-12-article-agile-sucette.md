@@ -1,8 +1,9 @@
-----
+---
 layout: post
 title: Quand l'agile part en sucette
 categories: [article]
-----
+resume: Coup de gueule contre une administration pleine de  bonne volonté mais qui se réfugit derrière de vieux démons au premier coup dur !
+---
 #Quand l'agile part en sucette
 
 ##Coup de gueule contre une administration pleine de  bonne volonté mais qui se réfugit derrière de vieux démons au premier coup dur !
@@ -21,7 +22,7 @@ Dans un dernier agonnie, je demande à ma responsable, si on en pourrait pas êt
 
 ##Morale de l'histoire ?
 
-Je me suis fait avoir comme un bleu. Une entreprise, tant agile qu'elle puisse être, retournera dans ses vieux carquants au premier quouak. Amis agilistes prenez garde ! Emmenez avec vous toute votre administration aux différentes agile-tour de votre région.
+Je me suis fait avoir comme un bleu. Une entreprise, tant agile qu'elle puisse être, retournera dans ses vieux carquants au premier quack. Amis agilistes prenez garde ! Emmenez avec vous toute votre administration aux différentes agile-tour de votre région.
 
 N'hésitez pas à répéter et répéter encore, les bienfaits des méthodes agiles sur votre travail.
 
