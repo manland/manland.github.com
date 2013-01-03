@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quand l'agile part en sucette
-categories: [brouillon]
+category: brouillon
 resume: Coup de gueule contre une administration pleine de  bonne volonté mais qui se réfugie derrière de vieux démons au premier coup dur !
 ---
 ##Coup de gueule contre une administration pleine de  bonne volonté mais qui se réfugie derrière de vieux démons au premier coup dur !
