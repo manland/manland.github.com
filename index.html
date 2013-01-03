@@ -4,6 +4,7 @@ title: Romain Maneschi's Life
 ---
 <div class="container">
 {% for post in site.posts %}
+{% if post.category != 'brouillon' %}
 <div class="article-min">
   <a class="article-global-link" href="{{ post.url }}">
     <h2 class="article-title">{{ post.title }}</h2>
@@ -13,5 +14,6 @@ title: Romain Maneschi's Life
     <span class="{{ post.categories[0] }}"></span>
   </a>
 </div>
+{% endif %}
 {% endfor %}
 </div>
