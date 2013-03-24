@@ -2,6 +2,8 @@
 layout: post
 title: Drag & Drop avec AngularJS
 category: article
-resume: Le drag & drop est revenu à la mode avec l'arrivée des tablettes et des smartphones. Un temps boudé par les développeurs web, il est de bon ton d'offrir de tels mécanismes dans nos applications web.
-url: http://www.frangular.com/2013/02/drag-drop-avec-angularjs.html
+resume: Explication du drag&drop avec AngularJs
 ---
+* Article écrit pour <a href="http://www.frangular.com" target="_blank">frangular.com</a>
+* <a href="http://jsfiddle.net/manland/DveUk/" target="_blank">JsFiddle</a> complet
+* <a href="http://www.frangular.com/2013/02/drag-drop-avec-angularjs.html" target="_blank">Voir l'article</a>
