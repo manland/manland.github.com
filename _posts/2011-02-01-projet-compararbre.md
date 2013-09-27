@@ -3,7 +3,7 @@ layout: post
 title: Compar'Arbre
 categories: [projet, universitaire, java]
 resume: Compar'Arbre permet de repérer le plus vite possible des différences sur des arbres.
-images: ["http://man.lydiman.net/cv/Java/Compar'Arbre/Compar'Arbre-intersection.png", "http://man.lydiman.net/cv/Java/Compar'Arbre/Compar'Arbre-recherche.png", "http://man.lydiman.net/cv/Java/Compar'Arbre/Compar'Arbre-aide.png"]
+images: ["http://man.lydiman.net/cv/Java/Compar'Arbre/Compar'Arbre-intersection.png"]
 ---
 {% include gallery.html %}
 

@@ -1,7 +1,11 @@
 <div class="container-img">
-  <a style="display:none" class="btn-gallery" href="#" onclick="GALLERY.prev()">prev</a>
   <img id="image" src="{{page.images.first}}" alt="{{ page.title }} screenshot" width="65%" height="auto" />
-  <a style="display:none" class="btn-gallery" href="#" onclick="GALLERY.next()">next</a>
+  {% if page.images and page.images.size > 1 %}
+  <div class="container-links-img">
+	{% for image in page.images %}
+		<a class="btn-gallery" onclick='GALLERY.load(event, "{{image}}")'><span></span></a>
+	{% endfor %}
+	</div>
+	{% endif %}
 </div>
 <div id="urls" style="display:none">{{ page.images | join:"," }}</div>
-<!--<script type="text/javascript" src="gallery.js"></script>-->

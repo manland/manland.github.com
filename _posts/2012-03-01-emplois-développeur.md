@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Développeur
+title: Développeur - ITK
 categories: [cv, emploi, informatique]
 resume: Développement d'applications GWT/Java.
 ---

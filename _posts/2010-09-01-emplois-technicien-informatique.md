@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Technicien informatique
+title: Technicien informatique - UM2
 categories: [cv, emploi, informatique]
 resume: Répondre aux questions des nouveaux étudiants de la faculté des sciences de Montpellier, essentiellement sur l'informatique.
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Développeur
+title: Développeur - Keepcore
 categories: [cv, emploi, informatique]
 resume: Développement d'applications Flex/Java.
 ---

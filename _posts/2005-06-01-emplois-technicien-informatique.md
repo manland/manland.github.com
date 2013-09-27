@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Technicien informatique
+title: Technicien informatique - SOS Micro
 categories: [cv, emploi, informatique]
 resume: Formatage et assemblage de PC.
 ---

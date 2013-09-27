@@ -3,7 +3,7 @@ layout: post
 title: Skimbo
 categories: [projet, scala]
 resume: Aggrégateur de réseaux sociaux.
-images: ["http://man.lydiman.net/cv/scala/skimbo/AllSkimbo.png", "http://man.lydiman.net/cv/scala/skimbo/PerfectSocialDevDisplay.png", "http://up.studio-dev.fr/_/capturedcran20121123212835.png"]
+images: ["http://man.lydiman.net/cv/scala/skimbo/AllSkimbo.png", "http://man.lydiman.net/cv/scala/skimbo/PerfectSocialDevDisplay.png"]
 ---
 {% include gallery.html %}
 

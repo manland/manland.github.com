@@ -202,26 +202,33 @@ nav {
 	padding: 10px;
 }
 
+.container-links-img {
+	display: block;
+}
+
 .btn-gallery {
-	width: auto;
-	padding: 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: #2D4C58;
 	cursor:pointer;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	border-radius: 5px;
-	vertical-align: top;
-	padding-top: 15px;
+	display: inline-block;
+	border: 2px solid #2D4C58;
+}
+
+.btn-gallery:hover {
+	background-color: #04A8DA;
+	border: 2px solid #2D4C58;	
+}
+
+.btn-gallery-selected {
+	border: 2px solid #04A8DA;
 }
 
 .btn-gallery:hover {
 	color: #fefefe;
 	text-decoration: none;
 }
-
-/*@media screen and (max-width: 800px) {
-  article {
-  	width: 20%;
-  }
-}*/
 
 .container .article-min{
 -webkit-transition:all .5s cubic-bezier(0, .99, 1, 1);
