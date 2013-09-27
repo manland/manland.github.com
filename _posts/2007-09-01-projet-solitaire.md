@@ -3,7 +3,7 @@ layout: post
 title: Solitaire
 categories: [projet, universitaire, cpp]
 resume: Le solitaire est un jeux de carte bien connu. Voici son application en C++.
-images: [http://man.lydiman.net/cv/C++/Solitaire/Capture.png]
+images: ["http://man.lydiman.net/cv/C++/Solitaire/Capture.png"]
 ---
 {% include gallery.html %}
 

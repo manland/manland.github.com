@@ -3,7 +3,7 @@ layout: post
 title: DivxTheque
 categories: [projet, python]
 resume: Logiciel permettant l'indexation et la recherche parmis un grand nombre de divx.
-images: [http://man.lydiman.net/cv/Python/DivxTheque/DivxTheque.png]
+images: ["http://man.lydiman.net/cv/Python/DivxTheque/DivxTheque.png"]
 ---
 {% include gallery.html %}
 

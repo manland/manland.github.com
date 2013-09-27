@@ -3,7 +3,7 @@ layout: post
 title: Same
 categories: [projet, universitaire, java]
 resume: Same est un jeu bien connu de tous. Voici son adaptation en Java afin d'en découvrir l'API swing.
-images: [http://man.lydiman.net/cv/Java/Same/Same.png]
+images: ["http://man.lydiman.net/cv/Java/Same/Same.png"]
 ---
 {% include gallery.html %}
 

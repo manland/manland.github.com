@@ -3,7 +3,7 @@ layout: post
 title: Raja
 categories: [projet, universitaire, java]
 resume: Ce programme de réaliser des recherches parmis une multitude de bases de données.
-images: [http://man.lydiman.net/cv/Java/Raja/appli.png, http://man.lydiman.net/cv/Java/Raja/initialisationSysteme.png, http://man.lydiman.net/cv/Java/Raja/selectQuerySysteme.png]
+images: ["http://man.lydiman.net/cv/Java/Raja/appli.png", "http://man.lydiman.net/cv/Java/Raja/initialisationSysteme.png", "http://man.lydiman.net/cv/Java/Raja/selectQuerySysteme.png"]
 ---
 {% include gallery.html %}
 

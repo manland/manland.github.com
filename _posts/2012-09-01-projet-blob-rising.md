@@ -3,7 +3,7 @@ layout: post
 title: Blob rising
 categories: [projet, javascript]
 resume: Un jeux de tower-défense inversé.
-images: [http://man.lydiman.net/cv/Javascript/blobRising/level3.png, http://man.lydiman.net/cv/Javascript/blobRising/regles.png, http://man.lydiman.net/cv/Javascript/blobRising/level1.png]
+images: ["http://man.lydiman.net/cv/Javascript/blobRising/level3.png", "http://man.lydiman.net/cv/Javascript/blobRising/regles.png", "http://man.lydiman.net/cv/Javascript/blobRising/level1.png"]
 ---
 {% include gallery.html %}
 

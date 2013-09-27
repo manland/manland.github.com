@@ -3,7 +3,7 @@ layout: post
 title: Explorateur de fichier
 categories: [projet, universitaire, python]
 resume: Explorateur de fichier écrit en html et cgi-python.
-images: [http://man.lydiman.net/cv/Python/Explorateur/Explorateur.png]
+images: ["http://man.lydiman.net/cv/Python/Explorateur/Explorateur.png"]
 ---
 {% include gallery.html %}
 

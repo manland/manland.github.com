@@ -3,7 +3,7 @@ layout: post
 title: Musquash
 categories: [projet, universitaire, java]
 resume: Ce logiciel est une gestion complète d'un club de musculation.
-images: [http://man.lydiman.net/cv/Java/Musquash/Musquash.png, http://man.lydiman.net/cv/Java/Musquash/Musquash-Squash.png, http://man.lydiman.net/cv/Java/Musquash/Musquash-Vente.png]
+images: ["http://man.lydiman.net/cv/Java/Musquash/Musquash.png", "http://man.lydiman.net/cv/Java/Musquash/Musquash-Squash.png", "http://man.lydiman.net/cv/Java/Musquash/Musquash-Vente.png"]
 ---
 {% include gallery.html %}
 

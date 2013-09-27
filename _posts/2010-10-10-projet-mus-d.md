@@ -3,7 +3,7 @@ layout: post
 title: mus-d
 categories: [projet, universitaire, action-script]
 resume: mus-d est un framework permettant de créer des jeux d'arcade en flex.
-images: [http://man.lydiman.net/cv/ActionScript/mus-d/logo.png, http://man.lydiman.net/cv/ActionScript/mus-d/createur.png, http://man.lydiman.net/cv/ActionScript/mus-d/deviensunhero.png, http://man.lydiman.net/cv/ActionScript/mus-d/pacman.png, http://man.lydiman.net/cv/ActionScript/mus-d/pingpong.png]
+images: ["http://man.lydiman.net/cv/ActionScript/mus-d/logo.png", "http://man.lydiman.net/cv/ActionScript/mus-d/createur.png", "http://man.lydiman.net/cv/ActionScript/mus-d/deviensunhero.png", "http://man.lydiman.net/cv/ActionScript/mus-d/pacman.png", "http://man.lydiman.net/cv/ActionScript/mus-d/pingpong.png"]
 ---
 {% include gallery.html %}
 

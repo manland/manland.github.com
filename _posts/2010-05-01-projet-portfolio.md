@@ -3,7 +3,7 @@ layout: post
 title: Portfolio
 categories: [projet, action-script]
 resume: L'application sur laquelle vous êtes actuellement.
-images: [http://man.lydiman.net/cv/ActionScript/PresentationProjets/PortfolioV0.1.png, http://man.lydiman.net/cv/ActionScript/PresentationProjets/PortfolioV0.png]
+images: ["http://man.lydiman.net/cv/ActionScript/PresentationProjets/PortfolioV0.1.png", "http://man.lydiman.net/cv/ActionScript/PresentationProjets/PortfolioV0.png"]
 ---
 {% include gallery.html %}
 
