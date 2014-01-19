@@ -3,7 +3,10 @@ layout: post
 title: Développeur - Keepcore
 categories: [cv, emploi, informatique]
 resume: Développement d'applications Flex/Java.
+images: ["/img/cv/keepcore/logo_keepcore.jpg"]
 ---
+{% include gallery.html %}
+
 * De Juin à Septembre 2010
 * Pour KeepCore qui est une société de service informatique
 * Adresse : ­ 19 rue de l'école de droit­ 34000­ Montpellier­ France

@@ -3,9 +3,12 @@ layout: post
 title: Développeur - Keepcore
 categories: [cv, emploi, informatique]
 resume: Développement d'applications Flex/Java.
+images: ["/img/cv/keepcore/logo_keepcore.jpg", "/img/cv/keepcore/tableaux-de-bord.jpg"]
 ---
+{% include gallery.html %}
+
 * D'Avril 2011 à Février 2012
-* Pour KeepCore qui est une société de service informatique
+* KeepCore est une société de service informatique
 * Poste : Ingénieur en recherche et développement dans le pôle produit pour le projet Keeplace
 * Tâches :
   * Client Flex, serveur Java (JBoss/Tomcat) et PHP, ouverture de l’application avec des Web Services, ajout de modules de reporting et d’e-learning, support du produit et déploiement en production

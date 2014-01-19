@@ -3,7 +3,9 @@ layout: post
 title: Skimbo
 categories: [projet, scala]
 resume: Aggrégateur de réseaux sociaux.
-images: ["/img/project/scala/skimbo/logo_skimbo-url2.png", "/img/project/scala/skimbo/AllSkimbo.png", "/img/project/scala/skimbo/directiveDragVue.png", "/img/project/scala/skimbo/PerfectSocialDevDisplay.png"]
+images: ["/img/project/scala/skimbo/logo_skimbo-url2.png", 
+"/img/project/scala/skimbo/Skimbo-update-16-08-2013.png", 
+"/img/project/scala/skimbo/128x128_transparent.png", "/img/project/scala/skimbo/AllSkimbo.png", "/img/project/scala/skimbo/directiveDragVue.png", "/img/project/scala/skimbo/PerfectSocialDevDisplay.png"]
 ---
 {% include gallery.html %}
 

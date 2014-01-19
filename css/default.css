@@ -36,7 +36,7 @@ header {
 	top:0;
 	display: block;
 	color: #000;
-	z-index: 1;
+	z-index: 10;
 	text-align: left;
 	height: 65px;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
@@ -139,7 +139,7 @@ nav {
 }
 
 .article-max img {
-	width: 100%;
+	max-width: 100%;
 }
 
 .article-min {
