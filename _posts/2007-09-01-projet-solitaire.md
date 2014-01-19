@@ -3,7 +3,7 @@ layout: post
 title: Solitaire
 categories: [projet, universitaire, cpp]
 resume: Le solitaire est un jeux de carte bien connu. Voici son application en C++.
-images: ["http://man.lydiman.net/cv/C++/Solitaire/Capture.png"]
+images: ["/img/project/C++/Solitaire/Capture.png"]
 ---
 {% include gallery.html %}
 
@@ -15,6 +15,6 @@ Réalisé en 3 mois, ce logiciel est fonctionnel, bien que lors de la réalisati
 * Connaissances acquises : J'ai appris à me familiariser avec les gestionnaires de placements, les composants et le drag and drop.
 
 <div class="container-link">
-  <a href="http://man.lydiman.net/cv/C++/Solitaire/Solitaire.zip" target="_blank">Sources</a>
-  <a href="http://man.lydiman.net/cv/C++/Solitaire/ALire" target="_blank">Readme</a>
+  <a href="/img/project/C++/Solitaire/Solitaire.zip" target="_blank">Sources</a>
+  <a href="/img/project/C++/Solitaire/ALire" target="_blank">Readme</a>
 </div>

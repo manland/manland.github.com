@@ -1,9 +1,13 @@
 ---
 layout: post
 title: Drag & Drop avec AngularJS
-category: article
+categories: [article]
 resume: Explication du drag&drop avec AngularJs
+images: ["/img/article/angulardraganddrop/AngularJS.png", "/img/article/angulardraganddrop/directiveDragVue-v3.png"]
 ---
-* Article écrit pour <a href="http://www.frangular.com" target="_blank">frangular.com</a>
-* Démonstration sur <a href="http://jsfiddle.net/manland/DveUk/" target="_blank">JsFiddle</a>
-* Lire <a href="http://www.frangular.com/2013/02/drag-drop-avec-angularjs.html" target="_blank">l'article</a>
+Article permettant de créer et gérer le drag and drop avec AngularJs.
+
+<div class="container-link">
+  <a href="http://www.frangular.com/2013/02/drag-drop-avec-angularjs.html" target="_blank">Article</a>
+  <a href="http://jsfiddle.net/manland/DveUk/" target="_blank">JsFiddle</a>
+</div>

@@ -3,7 +3,7 @@ layout: post
 title: ShowMyFaves
 categories: [projet, python]
 resume: Tous vos bookmarks réunis dans une application.
-images: ["http://man.lydiman.net/cv/Python/ShowMyFaves/showmyfaves.png"]
+images: ["/img/project/Python/ShowMyFaves/showmyfaves.png"]
 ---
 {% include gallery.html %}
 

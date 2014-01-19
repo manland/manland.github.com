@@ -3,7 +3,7 @@ layout: post
 title: CMS - Lydiman
 categories: [projet, php]
 resume: Permet la gestion de membres, un forum, une gallerie, des news, des statistiques...
-images: ["http://man.lydiman.net/cv/Php/Lydiman/Ludiman.png"]
+images: ["/img/project/Php/Lydiman/Lydiman.png"]
 ---
 {% include gallery.html %}
 

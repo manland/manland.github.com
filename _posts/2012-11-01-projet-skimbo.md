@@ -3,7 +3,7 @@ layout: post
 title: Skimbo
 categories: [projet, scala]
 resume: Aggrégateur de réseaux sociaux.
-images: ["http://man.lydiman.net/cv/scala/skimbo/AllSkimbo.png", "http://man.lydiman.net/cv/scala/skimbo/PerfectSocialDevDisplay.png"]
+images: ["/img/project/scala/skimbo/logo_skimbo-url2.png", "/img/project/scala/skimbo/AllSkimbo.png", "/img/project/scala/skimbo/directiveDragVue.png", "/img/project/scala/skimbo/PerfectSocialDevDisplay.png"]
 ---
 {% include gallery.html %}
 
@@ -16,5 +16,6 @@ Cet outil permet de sauver votre navigateur. En effet, il permet de fermer vos o
 
 <div class="container-link">
   <a href="http://skimbo.fr" target="_blank">Skimbo</a>
+  <a href="http://blog.skimbo.fr" target="_blank">Blog</a>
   <a href="https://github.com/Froggies/Skimbo" target="_blank">Github</a>
 </div>

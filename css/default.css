@@ -120,7 +120,7 @@ nav {
 .article-max, .article-min {
 	background-color: #fefefe;
 	vertical-align: top;
-	border-radius: 10px 10px 0 10px;
+	border-radius: 5px 5px 0 5px;
 	margin: 15px 0;
 	word-wrap: break-word;
 	padding: 15px;
@@ -134,6 +134,10 @@ nav {
 	border-radius: 10px;
 	display: block;
 	margin: 15px auto;
+}
+
+.article-max img {
+	width: 100%;
 }
 
 .article-min {
