@@ -3,7 +3,7 @@ layout: post
 title: Portfolio
 categories: [projet, action-script]
 resume: L'application sur laquelle vous êtes actuellement.
-images: ["/img/project/ActionScript/PresentationProjets/PortfolioV0.1.png", "/img/project/ActionScript/PresentationProjets/PortfolioV0.png"]
+images: ["/img/project/ActionScript/PresentationProjets/PortfolioV0.2.png", "/img/project/ActionScript/PresentationProjets/PortfolioV0.1.png", "/img/project/ActionScript/PresentationProjets/PortfolioV0.png"]
 ---
 {% include gallery.html %}
 
