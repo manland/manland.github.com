@@ -50,7 +50,7 @@ header {
 .title, .title-cv {
 	display: inline-block;
 	color: #fefefe;
-	font-size: 36px;
+	font-size: 2.5em;
 }
 
 .sub-presentation {
@@ -183,12 +183,12 @@ nav {
 .article-title {
 	display: block;
 	padding-bottom: 10px;
-	font-size: 30px;
+	font-size: 2.5em;
 	color: #222;
 }
 
 .publish-date {
-	font-size: 10px;
+	font-size: 0.7em;
 	position: absolute;
 	right: 5px;
 	top: 5px;
