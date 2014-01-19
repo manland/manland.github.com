@@ -5,16 +5,16 @@ var GALLERY = GALLERY || (function(){
 
     return {
         init: function() {
-          _images = document.getElementById('urls').innerHTML.split(',');
-          _index = 0;
-          console.log(_images);
+          if(document.getElementById('urls')) {
+            _images = document.getElementById('urls').innerHTML.split(',');
+            _index = 0;
+          }
         },
         prev: function() {
           _index--;
           if(_index < 0) {
             _index = _images.length-1;
           }
-          console.log(_images, _index);
           document.getElementById('image').src = _images[_index];
         },
         next: function() {
@@ -22,12 +22,13 @@ var GALLERY = GALLERY || (function(){
           if(_index >= _images.length) {
             _index = 0;
           }
-          console.log(_images, _index);
           document.getElementById('image').src = _images[_index];
         },
         load: function(evt, imageUrl) {
-          if(_lastElementSelected != undefined) {
+          if(_lastElementSelected !== undefined) {
             _lastElementSelected.className = "btn-gallery";
+          } else {
+            document.getElementById('first-button-gallery').className = "btn-gallery";
           }
           _lastElementSelected = evt.target;
           evt.target.className = evt.target.className + " btn-gallery-selected";

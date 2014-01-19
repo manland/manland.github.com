@@ -3,7 +3,11 @@
   {% if page.images and page.images.size > 1 %}
   <div class="container-links-img">
 	{% for image in page.images %}
+		{% if forloop.first %}
+		<a id="first-button-gallery" class="btn-gallery btn-gallery-selected" onclick='GALLERY.load(event, "{{image}}")'><span></span></a>
+		{% else %}
 		<a class="btn-gallery" onclick='GALLERY.load(event, "{{image}}")'><span></span></a>
+		{% endif %}
 	{% endfor %}
 	</div>
 	{% endif %}
