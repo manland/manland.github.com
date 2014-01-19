@@ -345,7 +345,7 @@ nav {
 .icon-beaker:before { content: '\e805'; } /* '' */
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .title, .sub-presentation, .social-network {
   	display: none;
   }
