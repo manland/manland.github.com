@@ -2,34 +2,5 @@
 layout: default
 title: Romain Maneschi's Projets
 ---
-<div class="container">
 
-{% for column in (0..2) %}
-	{% assign i = 0 %}
-	<div class="column">
-	{% for post in site.categories.projet %}
-		{% if post.category != 'brouillon' %}
-			{% assign mod = i | modulo:3 %}
-			{% if mod == column %}
-				<div class="article-min {{post.categories[0]}}">
-				  <a class="article-global-link" href="{{ post.url }}">
-				    <h2 class="article-title">{{ post.title }}</h2>
-				    <span class="publish-date">{{ post.date | date:"%b %Y" }}</span>
-				    {{ post.resume }}
-				    {% if post.images %}
-				    <div class="img-container">
-			    		<img src="{{ post.images.first }}">
-		    		</div>
-				    {% endif %}
-				    <span class="article-category {{ post.categories[0] }}"></span>
-				    <span class="{{ post.categories[0] }}"></span>
-				  </a>
-				</div>
-			{% endif %}
-			{% assign i = i | plus:1 %}
-		{% endif %}
-	{% endfor %}
-	</div>
-{% endfor %}
-
-</div>
+{% include threeColumnsLayout.html posts=site.categories.projet %}
