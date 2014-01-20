@@ -73,19 +73,40 @@ nav {
 	padding: 5px;
 	cursor:pointer;
 	font-family: "fontello";
+	font-size: 1.2em;
 }
 
 .btn {
-	color: #ccc;
+	color: #888;
+	text-decoration: none;
 }
 
-.btn-selected, .btn-selected:hover {
+.btn-selected, .btn-selected:hover, .btn:hover {
 	color: #fff;
-	text-decoration: underline;
+	text-decoration: none;
+	text-shadow: 0 0 5px #FFFFFF;
 }
 
-.btn:hover {
-	color: #fefefe;
+.btn-selected.btn-projet {
+	text-shadow: 0 0 5px #2DBB59;
+}
+.btn-selected.btn-cv {
+	text-shadow: 0 0 5px #6C3695;
+}
+.btn-selected.btn-article {
+	text-shadow: 0 0 5px #0D75B8;
+}
+
+.btn.btn-projet:hover, .btn-selected.btn-projet:hover {
+	color: #2DBB59;
+	text-decoration: none;
+}
+.btn.btn-cv:hover, .btn-selected.btn-cv:hover {
+	color: #6C3695;
+	text-decoration: none;
+}
+.btn.btn-article:hover, .btn-selected.btn-article:hover {
+	color: #0D75B8;
 	text-decoration: none;
 }
 
@@ -273,11 +294,11 @@ nav {
 .container .article-min:hover {
 	z-index:5;
 	color: black;
-	-webkit-transform: scale(1.1);
-	   -moz-transform: scale(1.1);
-	    -ms-transform: scale(1.1);
-	     -o-transform: scale(1.1);
-	        transform: scale(1.1);
+	-webkit-transform: scale(1.025);
+	   -moz-transform: scale(1.025);
+	    -ms-transform: scale(1.025);
+	     -o-transform: scale(1.025);
+	        transform: scale(1.025);
 }
 
 .container .article-min.projet:hover {
