@@ -17,7 +17,9 @@ title: Romain Maneschi's Life
 				    <span class="publish-date">{{ post.date | date:"%b %Y" }}</span>
 				    {{ post.resume }}
 				    {% if post.images %}
-			    	<img src="{{ post.images.first }}">
+				    <div class="img-container">
+			    		<img src="{{ post.images.first }}">
+		    		</div>
 				    {% endif %}
 				    <span class="article-category {{ post.categories[0] }}"></span>
 				    <span class="{{ post.categories[0] }}"></span>
