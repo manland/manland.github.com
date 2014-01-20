@@ -53,6 +53,11 @@ header {
 	font-size: 2.5em;
 }
 
+.title-cv {
+	margin-top: 75px;
+	width: 100%;
+}
+
 .sub-presentation {
 	color: #ccc;
 	display: block;

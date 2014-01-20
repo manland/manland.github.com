@@ -2,41 +2,14 @@
 layout: default
 title: Romain Maneschi's CV
 ---
-<div class="container">
-
 <div class="title-cv">Formations</div>
 
-{% for post in site.categories.etudes %}
-<div class="article-max">
-  <a class="article-global-link" href="{{ post.url }}">
-    <h2 class="article-title">{{ post.title }}</h2>
-    <span class="publish-date">{{ post.date | date:"%b %Y" }}</span>
-    {{ post.resume }}
-  </a>
-</div>
-{% endfor %}
+{% include threeColumnsLayout.html posts=site.categories.etudes %}
 
 <div class="title-cv">Emplois informatique</div>
 
-{% for post in site.categories.informatique %}
-<div class="article-max">
-  <a class="article-global-link" href="{{ post.url }}">
-    <h2 class="article-title">{{ post.title }}</h2>
-    <span class="publish-date">{{ post.date | date:"%b %Y" }}</span>
-    {{ post.resume }}
-  </a>
-</div>
-{% endfor %}
+{% include threeColumnsLayout.html posts=site.categories.informatique %}
 
 <div class="title-cv">Autres emplois</div>
 
-{% for post in site.categories.autre %}
-<div class="article-max">
-  <a class="article-global-link" href="{{ post.url }}">
-    <h2 class="article-title">{{ post.title }}</h2>
-    <span class="publish-date">{{ post.date | date:"%b %Y" }}</span>
-    {{ post.resume }}
-  </a>
-</div>
-{% endfor %}
-</div>
+{% include threeColumnsLayout.html posts=site.categories.autre %}

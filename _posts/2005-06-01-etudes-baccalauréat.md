@@ -3,6 +3,7 @@ layout: post
 title: Baccalauréat
 categories: [cv, etudes]
 resume: Baccalauréat Scientifique.
+images: ["/img/cv/alphonsedaudet.jpg"]
 ---
 * Baccalauréat Scientifique au Lycée Alphonse Daudet
 * Etablissement : Lycée Alphonse Daudet

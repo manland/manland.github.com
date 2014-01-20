@@ -3,6 +3,7 @@ layout: post
 title: Technicien informatique - Camping la Vallée Heureuse
 categories: [cv, emploi, informatique]
 resume: Conseil sur l'achat et pose du matériel informatique pour le camping la vallée heureuse.
+images: ["/img/cv/vh_annonce.jpg"]
 ---
 * De Janvier à Juin 2008
 * Pour le Camping la Vallée Heureuse

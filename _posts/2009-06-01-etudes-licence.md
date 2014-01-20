@@ -3,6 +3,7 @@ layout: post
 title: Licence
 categories: [cv, etudes]
 resume: Licence Informatique.
+images: ["/img/cv/UM2.jpg"]
 ---
 * Licence Informatique, Génie Logiciel à l'Université des Sciences de Montpellier
 * Etablissement : Université des Sciences de Montpellier
