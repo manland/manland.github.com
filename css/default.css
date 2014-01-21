@@ -89,17 +89,6 @@ nav {
 .btn-selected, .btn-selected:hover, .btn:hover {
 	color: #fff;
 	text-decoration: none;
-	text-shadow: 0 0 5px #FFFFFF;
-}
-
-.btn-selected.btn-projet {
-	text-shadow: 0 0 5px #2DBB59;
-}
-.btn-selected.btn-cv {
-	text-shadow: 0 0 5px #6C3695;
-}
-.btn-selected.btn-article {
-	text-shadow: 0 0 5px #0D75B8;
 }
 
 .btn.btn-projet:hover, .btn-selected.btn-projet:hover {
