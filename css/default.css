@@ -167,6 +167,7 @@ nav {
 
 .article-min {
 	width: 100%;
+	min-height: 200px;
 }
 
 .article-min a {
@@ -207,6 +208,45 @@ nav {
 
 .article-category.cv {
 	border-color: rgba(0, 0, 0, 0) #6C3695 #6C3695 rgba(0, 0, 0, 0);
+}
+
+.article-min .categories {
+	position: absolute;
+	right: 0;
+	top: 30px;
+	width: 15px;
+}
+
+.article-min .categories .category {
+	border-radius: 2px 0 0 2px;
+	float: right;
+	width: 10px;
+	height: 22px;
+	line-height: 22px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	text-transform: capitalize;
+}
+
+.article-min.article .categories .category {
+	background-color: #0D75B8;
+	color: #0D75B8;
+}
+.article-min.projet .categories .category {
+	background-color: #2DBB59;
+	color: #2DBB59;
+}
+.article-min.cv .categories .category {
+	background-color: #6C3695;
+	color: #6C3695;
+}
+
+.article-min .categories .category:hover {
+	color: #fff;
+	padding: 0 15px;
+	width: auto;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 .article-title {

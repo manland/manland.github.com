@@ -22,6 +22,13 @@
                 </div>
               {% endif %}
               <span class="article-category {{ post.categories[0] }}"></span>
+              <div class="categories">
+              {% for category in post.categories %}
+                <a class="category">
+                  {{category}}
+                </a>
+              {% endfor %}
+              </div>
           </a>
         </div>
       {% endif %}
