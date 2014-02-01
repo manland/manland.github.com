@@ -110,9 +110,19 @@ nav {
 }
 
 .social-network {
-	position: absolute;
-	top: -15px;
-	right: 10px;
+	position: relative;
+	float: right;
+	margin-right: 5px;
+	margin-top: -15px;
+}
+
+.social-network a {
+	float: left;
+	padding: 0 2px;
+}
+
+.social-network a:hover {
+	margin-top: 15px;
 }
 
 .social-network-tab {
