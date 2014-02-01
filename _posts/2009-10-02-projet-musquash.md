@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Musquash
-categories: [projet, universitaire, java]
+categories: [projet, universitaire]
+tags: [java]
 resume: Ce logiciel est une gestion complète d'un club de musculation.
 images: ["/img/project/Java/Musquash/Musquash.png", "/img/project/Java/Musquash/Musquash-Squash.png", "/img/project/Java/Musquash/Musquash-Vente.png"]
 ---

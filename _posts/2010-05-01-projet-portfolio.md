@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Portfolio
-categories: [projet, action-script]
+categories: [projet, personnel]
+tags: [action-script, javascript, jekyll]
 resume: L'application sur laquelle vous êtes actuellement.
 images: ["/img/project/ActionScript/PresentationProjets/PortfolioV0.2.png", "/img/project/ActionScript/PresentationProjets/PortfolioV0.1.png", "/img/project/ActionScript/PresentationProjets/PortfolioV0.png"]
 ---

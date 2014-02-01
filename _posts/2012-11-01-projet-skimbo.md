@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Skimbo
-categories: [projet, scala]
+categories: [projet, personnel]
+tags: [scala]
 resume: Aggrégateur de réseaux sociaux.
 images: ["/img/project/scala/skimbo/logo_skimbo-url2.png", 
 "/img/project/scala/skimbo/Skimbo-update-16-08-2013.png", 

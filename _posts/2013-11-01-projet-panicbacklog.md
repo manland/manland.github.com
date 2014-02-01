@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Panic Backlog
-categories: [projet, javascript]
+categories: [projet, personnel]
+tags: [javascript]
 resume: Un jeu où vous êtes un chef de projet tyrannique.
 images: ["/img/project/Javascript/PanicBacklog/panicbacklog_logo.png", "/img/project/Javascript/PanicBacklog/9.png", 
 "/img/project/Javascript/PanicBacklog/8.png", 

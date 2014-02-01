@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Explorateur de fichier
-categories: [projet, universitaire, python]
+categories: [projet, universitaire]
+tags: [python]
 resume: Explorateur de fichier écrit en html et cgi-python.
 images: ["/img/project/Python/Explorateur/Explorateur.png"]
 ---

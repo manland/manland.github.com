@@ -1,7 +1,8 @@
 ---
 layout: post
 title: CMS - Lydiman
-categories: [projet, php]
+categories: [projet, personnel]
+tags: [php]
 resume: Permet la gestion de membres, un forum, une gallerie, des news, des statistiques...
 images: ["/img/project/Php/Lydiman/Lydiman.png"]
 ---

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Blob rising
-categories: [projet, javascript]
+categories: [projet, personnel]
+tags: [javascript]
 resume: Un jeux de tower-défense inversé.
 images: ["/img/project/Javascript/blobRising/level3.png", "/img/project/Javascript/blobRising/regles.png", "/img/project/Javascript/blobRising/level1.png"]
 ---

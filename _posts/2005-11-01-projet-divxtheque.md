@@ -1,7 +1,8 @@
 ---
 layout: post
 title: DivxTheque
-categories: [projet, python]
+categories: [projet, personnel]
+tags: [python]
 resume: Logiciel permettant l'indexation et la recherche parmis un grand nombre de divx.
 images: ["/img/project/Python/DivxTheque/DivxTheque.png"]
 ---

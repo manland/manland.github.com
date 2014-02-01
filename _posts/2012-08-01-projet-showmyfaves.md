@@ -1,7 +1,8 @@
 ---
 layout: post
 title: ShowMyFaves
-categories: [projet, python]
+categories: [projet, personnel]
+tags: [python]
 resume: Tous vos bookmarks réunis dans une application.
 images: ["/img/project/Python/ShowMyFaves/showmyfaves.png"]
 ---

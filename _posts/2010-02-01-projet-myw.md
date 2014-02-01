@@ -1,7 +1,8 @@
 ---
 layout: post
 title: MYW
-categories: [projet, universitaire, cpp]
+categories: [projet, universitaire]
+tags: [cpp]
 resume: MYW est un éditeur de texte spécialisé dans les langages du web (html, php, css, javascript...). Embarquant un client ftp, et un explorateur web. Le tout en C++ grace à l'API Qt.
 images: ["/img/project/C++/MYW/myw.png", "/img/project/C++/MYW/FTPBrowser.png", "/img/project/C++/MYW/WebBrowser.png"]
 ---

@@ -202,7 +202,7 @@ nav {
 	border-color: rgba(0, 0, 0, 0) #2DBB59 #2DBB59 rgba(0, 0, 0, 0);
 }
 
-.article-category.article {
+.article-category.ecrits {
 	border-color: rgba(0, 0, 0, 0) #0D75B8 #0D75B8 rgba(0, 0, 0, 0);
 }
 
@@ -217,7 +217,7 @@ nav {
 	width: 15px;
 }
 
-.article-min .categories .category {
+.article-min .categories .category, .category-link {
 	border-radius: 2px 0 0 2px;
 	float: right;
 	width: 10px;
@@ -228,7 +228,11 @@ nav {
 	text-transform: capitalize;
 }
 
-.article-min.article .categories .category {
+.category-link {
+	float: none;
+}
+
+.article-min.ecrits .categories .category {
 	background-color: #0D75B8;
 	color: #0D75B8;
 }
@@ -264,7 +268,7 @@ nav {
 	padding-right: 5px;
 }
 
-.projet:after, .article:after, .cv:after {
+.projet:after, .ecrits:after, .cv:after {
 	position: absolute;
 	right: 3px;
 	bottom: 4px;
@@ -277,7 +281,7 @@ nav {
 	content:"\e805";
 }
 
-.article:after {
+.ecrits:after {
 	content: "\e804";
 }
 
@@ -344,7 +348,7 @@ nav {
 	box-shadow:0 0 5px #2DBB59;
 }
 
-.container .article-min.article:hover {
+.container .article-min.ecrits:hover {
 	box-shadow:0 0 5px #0D75B8;
 }
 
@@ -354,6 +358,22 @@ nav {
 
 .container .article-min:hover a {
 	color: black;
+}
+
+.category-category {
+	text-align: left;
+	padding: 10px;
+	margin: 20px;
+	font-size: 2em;
+	display: block;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.category-article {
+	padding: 10px;
+	display: block;
+	font-size: 0.8em;
 }
 
 

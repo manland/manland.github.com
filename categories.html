@@ -1,0 +1,24 @@
+---
+layout: default
+title: Categories
+---
+
+<h2 class="title-cv">Categories</h2>
+<div class="container">
+{% for category in site.categories %}
+<a class="category-link" href="#{{ category | first }}">{{ category | first }}</a>
+{% endfor %}
+</div>
+
+<h2 class="title-cv">Articles by Category</h2>
+{% for category in site.categories %}
+  <div class="category-category">{{ category | first }}
+    {% for posts in category %}
+      {% for post in posts %}
+      	{% if post.title and post.category != 'brouillon' %}
+          <a class="category-article" href="{{ post.url }}">{{ post.title }}</a>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+{% endfor %}

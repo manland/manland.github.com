@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Raja
-categories: [projet, universitaire, java]
+categories: [projet, universitaire]
+tags: [java]
 resume: Ce programme permet de réaliser des recherches parmis une multitude de bases de données.
 images: ["/img/project/Java/Raja/appli.png", "/img/project/Java/Raja/initialisationSysteme.png", "/img/project/Java/Raja/selectQuerySysteme.png"]
 ---
