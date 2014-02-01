@@ -24,7 +24,7 @@
               <span class="article-category {{ post.categories[0] }}"></span>
               <div class="categories">
               {% for category in post.categories %}
-                <a class="category">
+                <a class="category" href="#{{category}}">
                   {{category}}
                 </a>
               {% endfor %}
@@ -37,5 +37,7 @@
   {% endfor %}
   </div>
 {% endfor %}
+
+<script type="text/javascript" src="/javascripts/filterArticle.js"></script>
 
 </div>
