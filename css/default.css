@@ -263,6 +263,27 @@ nav {
 	cursor: pointer;
 }
 
+.article-min .tag {
+	color: #fff;
+	text-decoration: none;
+	padding: 1px 5px;
+	border-radius: 2px;
+	text-transform: capitalize;
+	font-size: 0.8em;
+	margin: 2px;
+	display: inline-block;
+}
+
+.article-min.ecrits .tag {
+	background-color: #0D75B8;
+}
+.article-min.projet .tag {
+	background-color: #2DBB59;
+}
+.article-min.cv .tag {
+	background-color: #6C3695;
+}
+
 .article-title {
 	display: block;
 	padding-bottom: 10px;
