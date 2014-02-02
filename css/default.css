@@ -283,6 +283,14 @@ nav {
 	background-color: #6C3695;
 }
 
+.hiddenFilter {
+	display: none;
+	text-align: right;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
 .article-title {
 	display: block;
 	padding-bottom: 10px;

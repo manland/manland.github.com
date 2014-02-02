@@ -5,6 +5,9 @@
       var hash = '';
       if(window.location.hash) {
         hash = window.location.hash.split('#')[1];
+        document.getElementsByClassName('hiddenFilter')[0].style.display = 'block';
+      } else {
+        document.getElementsByClassName('hiddenFilter')[0].style.display = 'none';
       }
       var articles = document.getElementsByClassName('article-min');
       for(var i=0, len=articles.length; i<len; i++) {
