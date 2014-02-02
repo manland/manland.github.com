@@ -299,24 +299,26 @@ nav {
 	padding-right: 5px;
 }
 
-.projet:after, .ecrits:after, .cv:after {
+.article-category.projet:after, 
+.article-category.ecrits:after, 
+.article-category.cv:after {
 	position: absolute;
-	right: 3px;
+	right: -37px;
 	bottom: 4px;
 	color: #fefefe;
 	font-size: 1em;
 	font-family: "fontello";
 }
 
-.projet:after {
+.article-category.projet:after {
 	content:"\e805";
 }
 
-.ecrits:after {
+.article-category.ecrits:after {
 	content: "\e804";
 }
 
-.cv:after {
+.article-category.cv:after {
 	content: "\e806";
 }
 

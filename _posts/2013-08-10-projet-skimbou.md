@@ -2,7 +2,7 @@
 layout: post
 title: SkimboU
 categories: [projet, personnel]
-tags: [qml]
+tags: [qml, concours]
 resume: Client Skimbo pour UbuntuTouch.
 images: ["/img/project/qml/skimbou/skimbou_login.png", "/img/project/qml/skimbou/skimbou_posts_3.png", 
 "/img/project/qml/skimbou/skimbou_all_columns.png", 

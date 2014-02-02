@@ -2,7 +2,7 @@
 layout: post
 title: Same
 categories: [projet, universitaire]
-tags: [java]
+tags: [java, jeu]
 resume: Same est un jeu bien connu de tous. Voici son adaptation en Java afin d'en découvrir l'API swing.
 images: ["/img/project/Java/Same/Same.png"]
 ---

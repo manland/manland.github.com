@@ -2,7 +2,7 @@
 layout: post
 title: Compar'Arbre
 categories: [projet, universitaire]
-tags: [java]
+tags: [java, swing, ihm]
 resume: Compar'Arbre permet de repérer le plus vite possible des différences sur des arbres.
 images: ["/img/project/Java/Compar'Arbre/Compar'Arbre-intersection.png"]
 ---

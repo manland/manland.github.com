@@ -2,7 +2,7 @@
 layout: post
 title: Sturvive
 categories: [projet, personnel]
-tags: [javascript, vanilla-js, 3D, webgl, concours]
+tags: [javascript, vanilla-js, jeu, 3D, webgl, concours]
 resume: Sturvive est un jeu en 3d jouable dans un navigateur web.
 images: ["/img/project/Javascript/Sturvive/logo.png", "/img/project/Javascript/Sturvive/menu.png", "/img/project/Javascript/Sturvive/0.png", 
 "/img/project/Javascript/Sturvive/1.png", 

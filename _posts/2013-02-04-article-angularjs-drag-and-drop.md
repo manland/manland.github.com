@@ -2,6 +2,7 @@
 layout: post
 title: Drag & Drop avec AngularJS
 categories: [ecrits, article]
+tags: [javascript, angularJs, directive, drag and drop]
 resume: Explication du drag&drop avec AngularJs
 images: ["/img/article/angulardraganddrop/AngularJS.png"]
 directLink: "http://www.frangular.com/2013/02/drag-drop-avec-angularjs.html"

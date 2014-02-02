@@ -2,6 +2,7 @@
 layout: post
 title: Développeur - Keepcore
 categories: [cv, emploi, informatique]
+tags: [flex, java, air]
 resume: Développement d'applications Flex/Java.
 images: ["/img/cv/keepcore/logo_keepcore.jpg"]
 ---

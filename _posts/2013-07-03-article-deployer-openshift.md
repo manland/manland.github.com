@@ -2,6 +2,7 @@
 layout: post
 title: Scala/playframework sur openshift
 categories: [ecrits, article]
+tags: [devOps, scala, playframework, ssh, git]
 resume: Déployer un projet scala/playframework sur openshift
 images: ["/img/article/deployersuropenshift/openshift_logo.png"]
 ---

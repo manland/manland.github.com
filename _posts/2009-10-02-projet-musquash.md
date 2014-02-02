@@ -2,7 +2,7 @@
 layout: post
 title: Musquash
 categories: [projet, universitaire]
-tags: [java]
+tags: [java, swing, oracleDatabase]
 resume: Ce logiciel est une gestion complète d'un club de musculation.
 images: ["/img/project/Java/Musquash/Musquash.png", "/img/project/Java/Musquash/Musquash-Squash.png", "/img/project/Java/Musquash/Musquash-Vente.png"]
 ---
@@ -16,5 +16,5 @@ En effet, ce logiciel permet de gérer les adhérents, le personnel, les différ
 <div class="container-link">
   <a href="http://code.google.com/p/projet-bd-montpellier/" target="_blank">Site</a>
   <a href="/img/project/Java/Musquash/Musquash.zip" target="_blank">Sources</a>
-  <a href="/img/project/Java/Same/README.txt" target="_blank">Readme</a>
+  <a href="/img/project/Java/Musquash/README.txt" target="_blank">Readme</a>
 </div>

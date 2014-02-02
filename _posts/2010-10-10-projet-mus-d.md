@@ -2,7 +2,7 @@
 layout: post
 title: mus-d
 categories: [projet, universitaire]
-tags: [action-script]
+tags: [action-script, flex, jeu]
 resume: mus-d est un framework permettant de créer des jeux d'arcade en flex.
 images: ["/img/project/ActionScript/mus-d/logo.png", "/img/project/ActionScript/mus-d/createur.png", "/img/project/ActionScript/mus-d/deviensunhero.png", "/img/project/ActionScript/mus-d/pacman.png", "/img/project/ActionScript/mus-d/pingpong.png"]
 ---

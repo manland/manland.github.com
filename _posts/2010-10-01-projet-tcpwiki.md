@@ -2,7 +2,7 @@
 layout: post
 title: TCPWiki
 categories: [projet, universitaire]
-tags: [cpp]
+tags: [c++]
 resume: TCPWiki est un petit logiciel en console permettant de créer, modifier et supprimer des documents partagés sur un réseaux local.
 images: ["/img/project/C++/TcpWiki/TcpWiki.png"]
 ---
