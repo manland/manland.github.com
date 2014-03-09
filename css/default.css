@@ -7,6 +7,7 @@ body, header, h1, h2, nav, blockquote, div, .article-max, span {
 body {
 	background-color: #333;
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
 }
 
 header, body, .container, .container-max {
@@ -49,7 +50,6 @@ header {
 
 .title, .sub-presentation, .title-cv {
 	padding-left: 10px;
-	font-family: "URW Chancery L";
 }
 
 .title, .title-cv {
