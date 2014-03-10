@@ -43,6 +43,10 @@ header {
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
+.title {
+	line-height: 45px;
+}
+
 .title, .title:hover {
 	text-decoration: none;
 	cursor: pointer;
@@ -82,7 +86,7 @@ nav {
 	width: auto;
 	padding: 5px;
 	cursor:pointer;
-	font-family: "fontello";
+	font-family: "fontello", 'Open Sans', sans-serif;
 	font-size: 1.2em;
 }
 
@@ -314,7 +318,7 @@ nav {
 	bottom: 4px;
 	color: #fefefe;
 	font-size: 1em;
-	font-family: "fontello";
+	font-family: "fontello", 'Open Sans', sans-serif;
 }
 
 .article-category.projet:after {
@@ -474,7 +478,7 @@ nav {
 .icon-beaker:before { content: '\e805'; } /* '' */
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .title, .sub-presentation, .social-network {
   	display: none;
   }
