@@ -8,7 +8,7 @@ images: ["/img/article/sturviveisugly/win1.png"]
 ---
 Cet article a pour but d'expliquer pourquoi [Sturvive](http://manland.github.io/sturvive/) est si laid graphiquement mais aussi et surtout quels sont ses points forts.
 
-#Qu'est-ce qu'un jeu ?
+##Qu'est-ce qu'un jeu ?
 
 <center>
 <img title="image jeu" src="/img/article/sturviveisugly/chartGame.png">
@@ -16,7 +16,7 @@ Cet article a pour but d'expliquer pourquoi [Sturvive](http://manland.github.io/
 
 Pour moi, un bon jeu est capable d'allier la jouabilité au plaisir de jouer, ce plaisir est plus grand lorsque les graphismes sont immersifs. Enfin, ce jeu doit être jouable par tous.
 
-#Un concours a une fin
+##Un concours a une fin
 
 Lorsque j'ai entendu parler du [goo challenge by mozilla](https://blog.mozilla.org/blog/2013/12/05/unleash-the-game-creator-in-you-by-entering-our-holiday-gaming-competition/), j'avais envie de découvrir le monde de la 3D. Mais, au vue de la deadline (1 mois) je savais dès le départ qu'il faudrait que je fasse des compromis.
 
@@ -24,7 +24,7 @@ Le seul point sur lequel je ne ferai jamais de compromis est, bien sûr, la comp
 
 Non, pour moi être compatible, cela veut dire pousser au maximum les limites de ce qu'on peut faire avec ce qu'on a. Et surtout dire à l'utilisateur pourquoi il ne peut pas jouer.
 
-#Un jeu doit être jouable
+##Un jeu doit être jouable
 
 Combien de fois suis-je tombé sur des applications web où la page est toute blanche ? Quelle frustration ! Pour éviter cela j'ai développé une page de [compatibilité](https://github.com/manland/sturvive/blob/master/app/src/util/CompatibilityUtil.js). C'est très facile à réaliser et ainsi tous vos utilisateurs savent à quoi s'en tenir.
 
@@ -40,7 +40,7 @@ Ensuite, la compatibilité doit permettre à des appareils vieillissants de pouv
 <img title="page options" src="/img/article/sturviveisugly/optionFr.png">
 </center>
 
-#Le joueur doit comprendre le jeu
+##Le joueur doit comprendre le jeu
 
 Quoi de plus frustrant que d'avoir un magnifique jeu mais où on ne comprend rien ? Avec [Sturvive](http://manland.github.io/sturvive/), je ne suis pas arrivé à ce que le jeu se comprenne de lui même. Par contre j'ai rajouté une aide très descriptive, malheureusement peu de joueurs lisent l'aide.
 
@@ -56,7 +56,7 @@ Enfin, sur la version PC, où il y a un peu plus de place, j'ai rajouté des ind
 <img title="annonces résultats" src="/img/article/sturviveisugly/win.png">
 </center>
 
-#Et donc Sturvive est moche
+##Et donc Sturvive est moche
 
 Vous l'aurez compris, découvrir le monde de la 3D, la librairie de [goo](www.gootechnologies.com) : goo engine, le développement web mobile, vouloir que mon jeu soit jouable et compréhensible, tout ça en 1 mois (avec noël au milieu !) ne m'a pas permis de prendre du temps pour les graphismes.
 
@@ -66,7 +66,7 @@ L'idée de jeu ? Elle s'est imposée à moi par dépit. En effet, l'espace : que
 
 Pour rajouter du challenge, on modifie quelques variables afin de créer des niveaux différents. Et voila on obtient [Sturvive](http://manland.github.io/sturvive/).
 
-#Mais Sturvive est cool
+##Mais Sturvive est cool
 
 Pour résumer, nous avons un jeu compatible, ou qui explique clairement à l'utilisateur pourquoi il ne peut pas jouer. 
 Des options pour gérer la qualité du rendu mais aussi et surtout permettre aux petites configurations matérielles de pouvoir jouer.
@@ -81,7 +81,7 @@ Depuis la fin du concours j'ai rendu possible son installation sur [Firefox OS](
 
 Pour l'avenir ? Je ne sais pas du tout, si j'ai le temps je ferai bien une version multi-joueur. Qu'en pensez-vous ?
 
-#Remerciements
+##Remerciements
 
 Je remercie [GooTechnologie](www.gootechnologies.com) et [Mozilla](http://www.mozilla.org/) pour avoir organisé ce concours et en général pour tout le travail qu'ils fournissent dans le monde du WebGl.
 
