@@ -75,6 +75,12 @@ Il est accessible depuis un ordinateur et un téléphone mobile.
 
 Je peux déployer une nouvelle version avec une [seule commande](https://github.com/manland/sturvive/blob/master/Gruntfile.js#L205), grâce à [Grunt](http://gruntjs.com/). Tout le [JS](https://github.com/manland/sturvive/blob/gh-pages/Sturvive-0.0.1.js) est minifié et le [CSS](https://github.com/manland/sturvive/blob/gh-pages/stylesheet/Sturvive-0.0.1.css) est concaténé en production afin d'obtenir un temps de chargement record.
 
+Le jeu propose 4 types de cartes différentes, 18 niveaux et 6 améliorations pour votre vaisseau. Ce qui permet de jouer, en moyenne, une vingtaine de minutes.
+
+Depuis la fin du concours j'ai rendu possible son installation sur [Firefox OS](http://www.mozilla.org/fr/firefox/os/). Et je vais le proposer, très prochainement, au [market de Firefox OS](https://marketplace.firefox.com).
+
+Pour l'avenir ? Je ne sais pas du tout, si j'ai le temps je ferai bien une version multi-joueur. Qu'en pensez-vous ?
+
 #Remerciements
 
 Je remercie [GooTechnologie](www.gootechnologies.com) et [Mozilla](http://www.mozilla.org/) pour avoir organisé ce concours et en général pour tout le travail qu'ils fournissent dans le monde du WebGl.
@@ -83,4 +89,4 @@ Mes premiers béta-testeurs [Audrey](https://twitter.com/udr3y/), [Laurent](http
 
 Ainsi que github qui héberge la plus part de mes créations dont [Sturvive](http://manland.github.io/sturvive/).
 
-*Relecteurs : [Audrey](https://twitter.com/udr3y/), [Laurent](https://twitter.com/_LaurentDufour), [Jérémy](http://itkweb.github.io/site-h-day/equipes/2013/10/07/jeremy.html)*
+*Relecteurs : [Audrey](https://twitter.com/udr3y/), [Laurent](https://twitter.com/_LaurentDufour), [Jérémy](http://itkweb.github.io/site-h-day/equipes/2013/10/07/jeremy.html), [Marine](http://itkweb.github.io/site-h-day/equipes/2013/09/09/marine.html), [Vivian](https://twitter.com/vp3n), [Julien](https://twitter.com/studiodev)*
