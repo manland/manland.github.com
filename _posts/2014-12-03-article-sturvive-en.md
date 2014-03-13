@@ -3,10 +3,10 @@ layout: post
 title: Why Sturvive is ugly but really cool ?
 category: brouillon
 tags: [javascript, vanilla-js, jeu, 3D, webgl, concours, english]
-resume: The story of the game, wich is ugly but wich won the goo mozilla contest.
+resume: The story of the game, which is ugly but which won the goo mozilla contest.
 images: ["/img/article/sturviveisugly/win1.png"]
 ---
-This article wants to explain why [Sturvive](http://manland.github.io/sturvive/) has a graphical so ugly but also what are it's goods points.
+This article explains why [Sturvive](http://manland.github.io/sturvive/) has a graphical so ugly but also what are it's goods points.
 
 ##What's a game ?
 
@@ -29,64 +29,64 @@ No, for me be compatible, is to push the limits on what we can do with what we h
 How many times I have found websites where the page is definitively white and empty ? How frustrating! To avoid this I have developped a [compatibility](https://github.com/manland/sturvive/blob/master/app/src/util/CompatibilityUtil.js) page. It's very easy to realise and with it all users can have a answer clear and direct on its troubles.
 
 <center>
-<img title="page compatibilité" src="/img/article/sturviveisugly/compatibilityFr.png">
+<img title="page compatibilité" src="/img/article/sturviveisugly/compatibilityEn.png">
 </center>
 
-I have already realised a same page on a [previous game](http://froggies.github.io/game-off-2013/), now I add one on all my projects, and also in my professional projects.
+I have already realised a same page on a [previous game](http://froggies.github.io/game-off-2013/#en), now I add one on all my projects, and also in my professional projects.
 
 Then, the compatibility must allow to old computers to run the game. I have an old PC, old... it's relative. It has 3 years, for me it's not old ! From a developer, lover of all last technologies is strange but i want an old computer, like mine, displays a simple 3d game. If for that, i need to decrease the number of meshes, decrease the canvas size, anyway the ultimate goal is to play.
 
 <center>
-<img title="page options" src="/img/article/sturviveisugly/optionFr.png">
+<img title="page options" src="/img/article/sturviveisugly/optionEn.png">
 </center>
 
-##Le joueur doit comprendre le jeu
+##The player must understood the game
 
-Quoi de plus frustrant que d'avoir un magnifique jeu mais où on ne comprend rien ? Avec [Sturvive](http://manland.github.io/sturvive/), je ne suis pas arrivé à ce que le jeu se comprenne de lui même. Par contre j'ai rajouté une aide très descriptive, malheureusement peu de joueurs lisent l'aide.
+What's more frustrating than have a beatiful but ununderstandable game ? With [Sturvive](http://manland.github.io/sturvive/), I don't succeeded to realise a game self-understanding. But I have added a descriptive help, unfortunately the players don't read help.
 
 <center>
-<img title="page aides" src="/img/article/sturviveisugly/aideFr.png">
+<img title="page aides" src="/img/article/sturviveisugly/aideEn.png">
 </center>
 
-Comme 2ème solution j'ai créé des niveaux d'entrainement, il manque un petit tutorial in-game pour que le joueur soit guidé tout au long de sa progression, mais je n'ai clairement pas eu assez de temps.
+For a second solution i have created three training levels, is missing a little in-game tutorial so that the player should be guided throughout its progression, but I haven't had the time to do this.
 
-Enfin, sur la version PC, où il y a un peu plus de place, j'ai rajouté des indications visuelles, mais entre nous c'est tellement moche que j'aurais pu m'abstenir, surtout si j'avais su que tous les [screenshots](http://blog.gootechnologies.com/post/75475795798/the-winners-of-the-mozilla-goo-game-creator) seraient fait sur PC :D
+At last, in the desktop version, where there are a little more space, I have added some visuals indicators, but between us it's so ugly than I should do nothing, especially if I had known that all [screenshots](http://blog.gootechnologies.com/post/75475795798/the-winners-of-the-mozilla-goo-game-creator) was done on Desktop :D
 
 <center>
 <img title="annonces résultats" src="/img/article/sturviveisugly/win.png">
 </center>
 
-##Et donc Sturvive est moche
+##And Sturvive is ugly
 
-Vous l'aurez compris, découvrir le monde de la 3D, la librairie de [goo](www.gootechnologies.com) : goo engine, le développement web mobile, vouloir que mon jeu soit jouable et compréhensible, tout ça en 1 mois (avec noël au milieu !) ne m'a pas permis de prendre du temps pour les graphismes.
+You will understand, discover the 3D world, the [goo](www.gootechnologies.com) library : goo engine, web mobile development, wanting my game is playable and understandable, all of that in 1 month (with chrismas in mid) did not allow me to take time for graphics.
 
-De plus, je suis un développeur qui n'a pas de goût. Si vous me demandez de choisir entre 2 couleurs, à coup sûr je prends la moche. Je ne pouvais donc pas me baser sur ça pour créer un jeu.
+In addition, i'm a developper with no graphical flavor. If you ask me to choose between two colors, I will choose the ugly one. I could not based my game on beatiful graphics, because i know its will be bad.
 
-L'idée de jeu ? Elle s'est imposée à moi par dépit. En effet, l'espace : quelques boules blanches pour simuler des étoiles et hop tout un univers est créé. On rajoute quelques boules oranges pour avoir des météorites, on a plus qu'à les dégommer et le jeu est créé.
+The idea of game ? She imposed itself on me. Indeed, the space : some white spheres to simulate stars and voila an univers is created. We add some orange spheres to have some meteorites, now we have to kill them and a game is builded.
 
-Pour rajouter du challenge, on modifie quelques variables afin de créer des niveaux différents. Et voila on obtient [Sturvive](http://manland.github.io/sturvive/).
+To add littles challenges, we modify some variables and we have different kind of level. And voila we have [Sturvive](http://manland.github.io/sturvive/).
 
-##Mais Sturvive est cool
+##But Sturvive is cool
 
-Pour résumer, nous avons un jeu compatible, ou qui explique clairement à l'utilisateur pourquoi il ne peut pas jouer. 
-Des options pour gérer la qualité du rendu mais aussi et surtout permettre aux petites configurations matérielles de pouvoir jouer.
-Tout le jeu est complètement traduit en français et en anglais.
-Il est accessible depuis un ordinateur et un téléphone mobile.
+To resume, we have a compatible game, or which explain the reason of why user can't play. 
+Options to manage renderers quality but also, permit to little hardware configuration to play.
+All game is translatedin English and French.
+It's accessible from phone and desktop.
 
-Je peux déployer une nouvelle version avec une [seule commande](https://github.com/manland/sturvive/blob/master/Gruntfile.js#L205), grâce à [Grunt](http://gruntjs.com/). Tout le [JS](https://github.com/manland/sturvive/blob/gh-pages/Sturvive-0.0.1.js) est minifié et le [CSS](https://github.com/manland/sturvive/blob/gh-pages/stylesheet/Sturvive-0.0.1.css) est concaténé en production afin d'obtenir un temps de chargement record.
+I can deploy new version with [one commande](https://github.com/manland/sturvive/blob/master/Gruntfile.js#L205), thanks to [Grunt](http://gruntjs.com/). All the [JS](https://github.com/manland/sturvive/blob/gh-pages/Sturvive-0.0.1.js) is minified and the [CSS](https://github.com/manland/sturvive/blob/gh-pages/stylesheet/Sturvive-0.0.1.css) is concatened in production to obtain a very little loading time.
 
-Le jeu propose 4 types de cartes différentes, 18 niveaux et 6 améliorations pour votre vaisseau. Ce qui permet de jouer, en moyenne, une vingtaine de minutes.
+The game has 4 kinds of level, 18 levels and 6 ameliorations of starship. All of that permit to play, in middle, 20 minutes.
 
-Depuis la fin du concours j'ai rendu possible son installation sur [Firefox OS](http://www.mozilla.org/fr/firefox/os/). Et je vais le proposer, très prochainement, au [market de Firefox OS](https://marketplace.firefox.com).
+From the end of the contest, i have developped the installation on [Firefox OS](http://www.mozilla.org/fr/firefox/os/). And I will propose it, soon, to the [Firefox OS market](https://marketplace.firefox.com).
 
-Pour l'avenir ? Je ne sais pas du tout, si j'ai le temps je ferai bien une version multi-joueur. Qu'en pensez-vous ?
+For the future ? I have no idea, if i have the time i will done a multi-gamer version. What do you think about that ?
 
-##Remerciements
+##Thanks
 
-Je remercie [GooTechnologie](www.gootechnologies.com) et [Mozilla](http://www.mozilla.org/) pour avoir organisé ce concours et en général pour tout le travail qu'ils fournissent dans le monde du WebGl.
+I thanks [GooTechnologie](www.gootechnologies.com) and [Mozilla](http://www.mozilla.org/) to have organized this contest and more generally for the work on WebGl.
 
-Mes premiers béta-testeurs [Audrey](https://twitter.com/udr3y/), [Laurent](https://twitter.com/_LaurentDufour), [Matthieu](https://twitter.com/Mattrio23), [Julien](https://twitter.com/studiodev), [Vivian](https://twitter.com/vp3n), [Adeline](https://twitter.com/adedib/) et tous [mes collègues de boulot](http://itkweb.github.io/site-h-day/equipe.html) pour leurs conseils et leurs encouragements.
+My early testers [Audrey](https://twitter.com/udr3y/), [Laurent](https://twitter.com/_LaurentDufour), [Matthieu](https://twitter.com/Mattrio23), [Julien](https://twitter.com/studiodev), [Vivian](https://twitter.com/vp3n), [Adeline](https://twitter.com/adedib/) and all [my collegues](http://itkweb.github.io/site-h-day/equipe.html) for their advice and encouragement.
 
-Ainsi que github qui héberge la plus part de mes créations dont [Sturvive](http://manland.github.io/sturvive/).
+And github who host the majority of my web creations like [Sturvive](http://manland.github.io/sturvive/).
 
-*Relecteurs : [Audrey](https://twitter.com/udr3y/), [Laurent](https://twitter.com/_LaurentDufour), [Jérémy](http://itkweb.github.io/site-h-day/equipes/2013/10/07/jeremy.html), [Marine](http://itkweb.github.io/site-h-day/equipes/2013/09/09/marine.html), [Vivian](https://twitter.com/vp3n), [Julien](https://twitter.com/studiodev)*
+*Reviewers : *

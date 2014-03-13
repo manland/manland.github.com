@@ -48,7 +48,7 @@ Quoi de plus frustrant que d'avoir un magnifique jeu mais où on ne comprend rie
 <img title="page aides" src="/img/article/sturviveisugly/aideFr.png">
 </center>
 
-Comme 2ème solution j'ai créé des niveaux d'entrainement, il manque un petit tutorial in-game pour que le joueur soit guidé tout au long de sa progression, mais je n'ai clairement pas eu assez de temps.
+Comme 2ème solution j'ai créé des niveaux d'entrainement, il manque un petit tutoriel in-game pour que le joueur soit guidé tout au long de sa progression, mais je n'ai clairement pas eu assez de temps.
 
 Enfin, sur la version PC, où il y a un peu plus de place, j'ai rajouté des indications visuelles, mais entre nous c'est tellement moche que j'aurais pu m'abstenir, surtout si j'avais su que tous les [screenshots](http://blog.gootechnologies.com/post/75475795798/the-winners-of-the-mozilla-goo-game-creator) seraient fait sur PC :D
 
