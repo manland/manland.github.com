@@ -141,9 +141,10 @@ nav {
 
 .container, .container-max {
 	margin-top:75px;
-	padding-left: 2%;
-	padding-right: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
 	text-align: center;
+	max-width: 1200px;
 }
 
 .columns {
