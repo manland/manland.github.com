@@ -146,12 +146,24 @@ nav {
 	text-align: center;
 }
 
+.columns {
+	-webkit-columns: 3;
+	-moz-columns: 3;
+	columns: 3;
+}
+
 .column {
 	width: 30%;
 	display: inline-block;
 	vertical-align: top;
 	margin: 0 1.2%;
 	max-width: 350px;
+	-webkit-column-break-after: always;
+  	break-inside: avoid-column;
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
 }
 
 .article-max, .article-min {
