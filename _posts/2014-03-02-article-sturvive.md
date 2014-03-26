@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pourquoi Sturvive est si moche mais si cool ?
+title: Pourquoi Sturvive est si moche mais si cool
 categories: [ecrits, article]
 tags: [javascript, vanilla-js, jeu, 3D, webgl, concours]
 resume: Retour sur ce jeu, qui est très moche mais qui a gagné le concours de mozilla/goo.
