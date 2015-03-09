@@ -5,7 +5,7 @@
   "homepage": "http://manland.github.io/",
   "version": "0.2.0",
   "scripts": {
-    "deploy": "grunt compile && git checkout master && cp -r ./compiled/* ./ && git add . && git commit -m \"new version\""
+    "deploy": "grunt compile && git checkout master && cp -r ./compiled/* ./ && git add -A . && git commit -m \"new version\""
   },
   "devDependencies": {
     "assemble": "^0.4.42",
