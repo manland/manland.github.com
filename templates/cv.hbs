@@ -1,0 +1,21 @@
+---
+title: "CV"
+metaDescription: "Simple visualization of your Js projects' dependencies."
+metaKeywords: "Kyu,JavaScript,js,Angular,AngularJs,dependance,dependencies,project,visualization,code,source"
+metaLanguage: "fr_FR"
+---
+
+<div class="container">
+	<div class="title-cv">Formations</div>
+	{{#sortStringDate pages "date" dir="desc" where="etudes"}}{{> minArticle}}{{/sortStringDate}}
+</div>
+
+<div class="container">
+	<div class="title-cv">Emplois informatique</div>
+	{{#sortStringDate pages "date" dir="desc" where="informatique"}}{{> minArticle}}{{/sortStringDate}}
+</div>
+
+<div class="container">
+	<div class="title-cv">Autres emplois</div>
+	{{#sortStringDate pages "date" dir="desc" where="autre"}}{{> minArticle}}{{/sortStringDate}}
+</div>

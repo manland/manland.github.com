@@ -1,0 +1,15 @@
+---
+layout: default.hbs
+---
+<div class="container-max">
+	<div class="article-max">
+		<span class="publish-date">{{moment page.date format="MMM YYYY"}}</span>
+		<h2 class="article-title">{{ page.title }}</h2>
+		{{#if page.images}}
+			{{> gallery}}
+		{{/if}}
+		{{#markdown}}
+			{{> body }}
+		{{/markdown}}
+	</div>
+</div>

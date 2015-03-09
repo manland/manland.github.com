@@ -1,0 +1,18 @@
+---
+title: "Home"
+metaDescription: "Simple visualization of your Js projects' dependencies."
+metaKeywords: "Kyu,JavaScript,js,Angular,AngularJs,dependance,dependencies,project,visualization,code,source"
+metaLanguage: "fr_FR"
+---
+
+<a href="/index.html" class="hiddenFilter">Annuler le filtre</a>
+
+<div class="container">
+
+	{{#sortStringDate pages "date" dir="desc"}}
+		{{> minArticle}}
+	{{/sortStringDate}}
+
+</div>
+
+<script type="text/javascript" src="/assets/js/filterArticle.js"></script>

@@ -1,0 +1,16 @@
+<div class="container-img">
+	<img id="image" src="/assets/images/{{page.images.[0]}}" alt="{{ page.title }} screenshot" />
+	{{#greater page.images.length 1}}
+	<div class="container-links-img">
+		{{#each page.images}}
+			{{#greater @index 0}}
+			<a class="btn-gallery" onclick='GALLERY.load(event, "{{this}}")'><span></span></a>
+			{{else}}
+			<a id="first-button-gallery" class="btn-gallery btn-gallery-selected" onclick='GALLERY.load(event, "{{this}}")'><span></span></a>
+			{{/greater}}
+		{{/each}}
+	</div>
+	{{/greater}}
+</div>
+<div id="urls" style="display:none">{{join page.images ","}}</div>
+<script type="text/javascript" src="/assets/js/gallery.js"></script>

@@ -1,0 +1,32 @@
+Ce logiciel a été créé dans le but de l'UE Qt en 3eme année de Licence informatique à l'Université des sciences de Montpellier par Romain Maneschi. Voici un bref descriptif de ce qui a été fait et des bugs qui ont resisté à mes éfforts.
+
+Il a entièrement été réalisé sous QT Creator.
+
+L'exécutable présent a été compilé sous Linux (Ubuntu 8.10) que vous trouvez dans le répertoire Interface. Si vous êtes sous un autre système d'exploitation pensez à faire un clean, qmake -project, qmake et make.
+
+Pour plus de détail veuillez consulter les .h où sont présents mon nom prénom et n° étudiant ainsi qu'un court descriptif de la Clasee.
+
+Terminer :
+- On peut jouer une partie entièrement.
+- On peut déplacer par click ou par drag&drop.
+- On peut "tricher" en perdant des points.
+
+Non terminer :
+- Dans les préférences on ne peut pas modifier l'image de fond.
+- Ajouter le niveau de difficulté dans les préférences, tout est près pour mais je n'ais pas eu le temps. Si vous voulez le modifier il vous suffit de modifier le paramètre nbCarteRetournnee dans FramePioche
+
+Bugs persistants :
+- Si on annule un déplacement multiple par click cela retourne la mère si elle été visible au départ.
+- Annuler de la pioche remet la carte en place sans cacher celle de dessous.
+- Préférences qui ne se recharge pas complétement.
+
+Aurais pu être fait :
+- Dessins de fond remplacé par couleure ou dégradé.
+- Image dan carte dos dans les préférences.
+- Système de meilleur score.
+
+
+Bonne Correction.
+
+Romain Maneschi
+N° Etudiant : 20053659

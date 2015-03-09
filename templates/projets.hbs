@@ -1,0 +1,14 @@
+---
+title: "Projets"
+metaDescription: "Simple visualization of your Js projects' dependencies."
+metaKeywords: "Kyu,JavaScript,js,Angular,AngularJs,dependance,dependencies,project,visualization,code,source"
+metaLanguage: "fr_FR"
+---
+
+<div class="container">
+
+	{{#sortStringDate pages "date" dir="desc" where="projet"}}
+		{{> minArticle}}
+	{{/sortStringDate}}
+
+</div>

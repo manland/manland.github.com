@@ -1,0 +1,22 @@
+---
+layout: xml.hbs
+---
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+  <title>{{ site.name }}</title>
+  <description>{{ site.description }}</description>
+  <link>{{safeXml site.homepage}}</link>
+  <lastBuildDate>{{moment format="ddd, DD MMM YYYY"}} 00:00:01 GMT</lastBuildDate>
+  <atom:link href="{{ site.homepage }}/feed.xml" rel="self" type="application/rss+xml" />
+  {{#sortStringDate pages "date" dir="desc" limit="10"}}
+  <item>
+    <title>{{safeXml data.title }}</title>
+    <description>{{safeXml data.resume }}</description>
+    <category>{{safeXml data.categories.[0] }}</category>
+    <pubDate>{{moment data.date format="ddd, DD MMM YYYY"}} 00:00:01 GMT</pubDate>
+    <link>{{ ../site.homepage }}{{ relativeLink }}</link>
+    <guid isPermaLink="true">{{ ../site.homepage }}{{ relativeLink }}</guid>
+  </item>
+  {{/sortStringDate}}
+  </channel>
+</rss>

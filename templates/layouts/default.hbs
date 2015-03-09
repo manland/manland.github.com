@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Romain Maneschi - {{ page.title }}</title>
+    <meta name="author" content="Romain Maneschi" />
+    <meta name="viewport" content="width=device-width" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/assets/css/default.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+    <link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico" />
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36759922-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  </head>
+  <body>
+    <header>
+      <a class="title" href="/index.html">
+        Romain Maneschi<br />
+        <div class="sub-presentation">Artisan développeur</div>
+      </a>
+      <nav>
+        {{#is this.filename "index.html"}}
+          <a href="/index.html" class="btn-selected">Accueil</a>
+        {{else}}
+          <a href="/index.html" class="btn">Accueil</a>
+        {{/is}}
+        {{#is this.filename "cv.html"}}
+          <a href="/cv.html" class="btn-selected btn-cv"> CV</a>
+        {{else}}
+          <a href="/cv.html" class="btn btn-cv"> CV</a>
+        {{/is}}
+        {{#is this.filename "projets.html"}}
+          <a href="/projets.html" class="btn-selected btn-projet"> Projets</a>
+        {{else}}
+          <a href="/projets.html" class="btn btn-projet"> Projets</a>
+        {{/is}}
+        {{#is this.filename "articles.html"}}
+          <a href="/articles.html" class="btn-selected btn-article"> Ecrits</a>
+        {{else}}
+          <a href="/articles.html" class="btn btn-article"> Ecrits</a>
+        {{/is}}
+        {{#is this.filename "contact.html"}}
+          <a href="/contact.html" class="btn-selected social-network-tab">Contact</a>
+        {{else}}
+          <a href="/contact.html" class="btn  social-network-tab">Contact</a>
+        {{/is}}
+      </nav>
+      <div class="social-network">
+        <a href="http://cv.lydiman.net" target="_blank"><img src="/assets/images/cvpdf.gif" width="30px" /></a>
+        <a href="https://twitter.com/RmManeschi" target="_blank"><img src="/assets/images/brand/twitter.png" width="30px" /></a>
+        <a href="https://github.com/manland" target="_blank"><img src="/assets/images/brand/github.png" width="30px" /></a>
+        <a href="http://www.viadeo.com/fr/profile/romain.maneschi" target="_blank"><img src="/assets/images/brand/viadeo.png" width="30px" /></a>
+        <a href="http://www.linkedin.com/pub/romain-maneschi/5b/422/aa9" target="_blank"><img src="/assets/images/brand/linkedin.png" width="30px" /></a>
+        <a href="https://plus.google.com/+RomainManeschi" target="_blank"><img src="/assets/images/brand/googleplus.png" width="30px" /></a>
+        <!--<a href="http://www.facebook.com/romain.maneschi" target="_blank"><img src="/images/brand/facebook.png" width="30px" /></a>-->
+        <a href="/feed.xml" target="_blank"><img src="/assets/images/brand/rss.png" width="30px" /></a>
+      </div>
+    </header>
+    {{> body }}
+  </body>
+</html>
