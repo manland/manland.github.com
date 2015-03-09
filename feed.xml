@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+  <title>Romain_Maneschi_Life</title>
+  <description>Craftman developper</description>
+  <link>http://manland.github.io/</link>
+  <lastBuildDate>Mon, 09 Mar 2015 00:00:01 GMT</lastBuildDate>
+  <atom:link href="http://manland.github.io//feed.xml" rel="self" type="application/rss+xml" />
+  
+  <item>
+    <title>Why Sturvive is ugly but really cool</title>
+    <description>The story of the game, which is ugly but which won the goo mozilla contest.</description>
+    <category>ecrits</category>
+    <pubDate>Wed, 12 Mar 2014 00:00:01 GMT</pubDate>
+    <link>http://manland.github.io/posts/2014-03-12-article-sturvive-en.html</link>
+    <guid isPermaLink="true">http://manland.github.io/posts/2014-03-12-article-sturvive-en.html</guid>
+  </item>
+  
+  <item>
+    <title>Pourquoi Sturvive est si moche mais si cool</title>
+    <description>Retour sur ce jeu, qui est très moche mais qui a gagné le concours de mozilla/goo.</description>
+    <category>ecrits</category>
+    <pubDate>Sun, 02 Mar 2014 00:00:01 GMT</pubDate>
+    <link>http://manland.github.io/posts/2014-03-02-article-sturvive.html</link>
+    <guid isPermaLink="true">http://manland.github.io/posts/2014-03-02-article-sturvive.html</guid>
+  </item>
+  
+  <item>
+    <title>Draw_my_project</title>
+    <description>Cette tâche grunt, permet de transformer votre code en magnifique graphes.</description>
+    <category>projet</category>
+    <pubDate>Wed, 19 Feb 2014 00:00:01 GMT</pubDate>
+    <link>http://manland.github.io/posts/2014-02-19-projet-draw_my_project.html</link>
+    <guid isPermaLink="true">http://manland.github.io/posts/2014-02-19-projet-draw_my_project.html</guid>
+  </item>
+  
+  <item>
+    <title>Commencer avec Git</title>
+    <description>Présentation des bases du gestionnaire de sources Git.</description>
+    <category>ecrits</category>
+    <pubDate>Mon, 13 Jan 2014 00:00:01 GMT</pubDate>
+    <link>http://manland.github.io/posts/2014-01-13-presentation-git.html</link>
+    <guid isPermaLink="true">http://manland.github.io/posts/2014-01-13-presentation-git.html</guid>
+  </item>
+  
+  <item>
+    <title>Sturvive</title>
+    <description>Sturvive est un jeu en 3d jouable dans un navigateur web.</description>
+    <category>projet</category>
+    <pubDate>Sun, 01 Dec 2013 00:00:01 GMT</pubDate>
+    <link>http://manland.github.io/posts/2013-12-01-projet-sturvive.html</link>
+    <guid isPermaLink="true">http://manland.github.io/posts/2013-12-01-projet-sturvive.html</guid>
+  </item>
+  
+  <item>
+    <title>GWT client</title>
+    <description>Présentation technique de quelques astuces pour réaliser la partie cliente d&amp;apos;une application en GWT.</description>
+    <category>ecrits</category>
+    <pubDate>Wed, 20 Nov 2013 00:00:01 GMT</pubDate>
+    <link>http://manland.github.io/posts/2013-11-20-presentation-GWT-client.html</link>
+    <guid isPermaLink="true">http://manland.github.io/posts/2013-11-20-presentation-GWT-client.html</guid>
+  </item>
+  
+  <item>
+    <title>Javascript Tools</title>
+    <description>Présentation d&amp;apos;outils pour aider le développement en Javascript.</description>
+    <category>ecrits</category>
+    <pubDate>Wed, 13 Nov 2013 00:00:01 GMT</pubDate>
+    <link>http://manland.github.io/posts/2013-11-13-presentation-jsTools.html</link>
+    <guid isPermaLink="true">http://manland.github.io/posts/2013-11-13-presentation-jsTools.html</guid>
+  </item>
+  
+  <item>
+    <title>Javascript Cheat Sheet</title>
+    <description>Présentation de techniques de base en Javascript.</description>
+    <category>ecrits</category>
+    <pubDate>Wed, 13 Nov 2013 00:00:01 GMT</pubDate>
+    <link>http://manland.github.io/posts/2013-11-13-presentation-jsCheatSheet.html</link>
+    <guid isPermaLink="true">http://manland.github.io/posts/2013-11-13-presentation-jsCheatSheet.html</guid>
+  </item>
+  
+  <item>
+    <title>Panic Backlog</title>
+    <description>Un jeu où vous êtes un chef de projet tyrannique.</description>
+    <category>projet</category>
+    <pubDate>Fri, 01 Nov 2013 00:00:01 GMT</pubDate>
+    <link>http://manland.github.io/posts/2013-11-01-projet-panicbacklog.html</link>
+    <guid isPermaLink="true">http://manland.github.io/posts/2013-11-01-projet-panicbacklog.html</guid>
+  </item>
+  
+  </channel>
+</rss>
