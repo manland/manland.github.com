@@ -6,6 +6,7 @@ categories: [projet, personnel]
 tags: [javascript, vanilla-js, jeu, 3D, webgl, concours]
 resume: Sturvive est un jeu en 3d jouable dans un navigateur web.
 images: ["project/Javascript/Sturvive/logo.png", "project/Javascript/Sturvive/menu.png", "project/Javascript/Sturvive/0.png", "project/Javascript/Sturvive/1.png", "project/Javascript/Sturvive/2.png", "project/Javascript/Sturvive/3.png", "project/Javascript/Sturvive/4.png", "project/Javascript/Sturvive/bonus.png", "project/Javascript/Sturvive/maps.png"]
+putForward: 2
 ---
 Jeu web réalisée en 1 mois, pour le <a href="https://blog.mozilla.org/blog/2013/12/05/unleash-the-game-creator-in-you-by-entering-our-holiday-gaming-competition/" target="_blank">Mozilla Holiday Game Contest</a>.
 

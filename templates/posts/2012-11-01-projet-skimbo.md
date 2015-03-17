@@ -6,6 +6,7 @@ categories: [projet, personnel]
 tags: [scala, angularJs, playframework, mongoDb, concours]
 resume: Aggrégateur de réseaux sociaux.
 images: ["project/scala/skimbo/logo_skimbo-url2.png", "project/scala/skimbo/Skimbo-update-16-08-2013.png", "project/scala/skimbo/128x128_transparent.png", "project/scala/skimbo/AllSkimbo.png", "project/scala/skimbo/directiveDragVue.png", "project/scala/skimbo/PerfectSocialDevDisplay.png"]
+putForward: 2
 ---
 Application web réalisée en 2 mois, pour le concours <a href="http://typesafe.com/resources/developer-contest" target="_blank">TypeSafeContest</a>.
 

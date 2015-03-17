@@ -225,6 +225,10 @@ nav {
 	margin-left: 24px;
 }
 
+.article-min-putForward-2 {
+	flex: 0 0 64%;
+}
+
 .article-min .article-min-resume {
 	display: block;
 	padding: 15px 0;

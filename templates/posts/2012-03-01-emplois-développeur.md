@@ -6,6 +6,7 @@ categories: [cv, emploi, informatique]
 tags: [gwt, java, javascript, angularJs, front-end, svn, git]
 resume: Développement d'applications GWT/Java.
 images: ["cv/itk/logo_itk.jpg", "cv/itk/equipe_ITK_2012.png", "cv/itk/itk-schema-metier-fr.png", "cv/itk/ecrans_itkvigne_1.png", "cv/itk/ecrans_itkvigne_2.png", "cv/itk/Impression-écran-préco-1.png", "cv/itk/Impression-écran-préco-4.png"]
+putForward: 2
 ---
 * Depuis Mars 2012 
 * Ingénieur en recherche et développement pour ITK

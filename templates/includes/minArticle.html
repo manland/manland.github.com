@@ -1,4 +1,4 @@
-<article class="article-min {{data.categories.[0]}}">
+<article class="article-min {{data.categories.[0]}} {{#if data.putForward}}article-min-putForward-{{data.putForward}}{{/if}}">
 	{{#if data.directLink}}
 		<a class="article-global-link" href="{{ data.directLink }}" target="_blank">
 	{{else}}
