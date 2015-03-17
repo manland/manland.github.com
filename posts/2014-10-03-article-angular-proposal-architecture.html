@@ -1,0 +1,105 @@
+<!DOCTYPE html><html lang="fr-fr"><head><meta charset="utf-8"><title>Romain Maneschi - Proposition d&#x27;une architecture AngularJs</title><meta name="author" content="Romain Maneschi"><meta name="viewport" content="width=device-width"><link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"><link rel="stylesheet" type="text/css" href="/assets/css/default-20150317.css"><link rel="stylesheet" type="text/css" href="/assets/css/monokai_sublime-20150317.css"><link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml"><link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico"><script type="text/javascript">var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36759922-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();</script></head><body><header><a class="title" href="/index.html"><img class="presentation-img" src="/assets/images/romain.png"><div class="presentation-name"><span>Romain Maneschi</span> <span class="presentation-baseline">Artisan développeur</span></div></a><nav><a href="/index.html" class="btn">Accueil</a> <a href="/cv.html" class="btn btn-cv"> CV</a> <a href="/projets.html" class="btn btn-projet"> Projets</a> <a href="/articles.html" class="btn btn-article"> Ecrits</a> <a href="/contact.html" class="btn social-network-tab">Contact</a></nav><div class="social-network"><a href="/assets/images/CV_Romain_Maneschi.pdf" target="_blank"><img src="/assets/images/cvpdf.gif" width="30px"></a> <a href="https://twitter.com/RmManeschi" target="_blank"><img src="/assets/images/brand/twitter.png" width="30px"></a> <a href="https://github.com/manland" target="_blank"><img src="/assets/images/brand/github.png" width="30px"></a> <a href="http://www.viadeo.com/fr/profile/romain.maneschi" target="_blank"><img src="/assets/images/brand/viadeo.png" width="30px"></a> <a href="http://www.linkedin.com/pub/romain-maneschi/5b/422/aa9" target="_blank"><img src="/assets/images/brand/linkedin.png" width="30px"></a> <a href="https://plus.google.com/+RomainManeschi" target="_blank"><img src="/assets/images/brand/googleplus.png" width="30px"></a> <a href="/feed.xml" target="_blank"><img src="/assets/images/brand/rss.png" width="30px"></a></div></header><div class="container-max"><div class="article-max"><span class="publish-date">Oct 2014</span><h2 class="article-title">Proposition d&#x27;une architecture AngularJs</h2><div class="container-img"><img id="image" src="/assets/images/presentation/angularjs-logo.png" alt="Proposition d&#x27;une architecture AngularJs screenshot" onclick="GALLERY.showBig()"></div><div id="urls" style="display:none">presentation/angularjs-logo.png</div><script type="text/javascript" src="/assets/js/gallery-20150317.js"></script><p>Lorsque l&#39;on découvre AngularJs, on commence souvent par de petits exemples avec un ou deux controllers et une ou deux vues. La magie opère et on peut rapidement commencer à faire notre petite application.</p><p>En général ça marche bien, jusqu&#39;à ce qu&#39;on ait 10, 20 ou 30 vues, autant de controllers et plusieurs dizaines (pour ne pas dire centaines) de lignes de code par controller. A ce moment là, notre application commence à être difficilement maintenable. Les tests sont généralement passés à la trappe et nos collègues ne peuvent pas reprendre notre code car ils ne comprenent plus rien.</p><p>Mais alors comment faire ? Je vais essayer de vous présenter une solution possible à ce difficile problème qui est : comment bien architecturer une application AngularJs ? Je dis bien essayer car dans ce domaine il y a autant de possibilités que de développeurs, ici je vais vous présenter mon point de vue.</p><p>Pour bien faire il nous suffit de déplacer ce qui correspond à 80% de notre application : le code métier, dans des services. Si vous n&#39;êtes pas sûr de bien connaître les services et les moyens de les créer n&#39;hésitez pas à lire ou relire <a href="/posts/2014-09-11-article-angular-service-is-life.html">les services c&#39;est la vie</a>.</p><h2 id="exemple-concret">Exemple concret</h2><p>Je ne sais pas pour vous, mais personnellement je comprends mieux les concepts lorsque je les applique sur un cas concret, un cas de tous les jours. Ici je prends l&#39;exemple de la récupération des utilisateurs de mon application.</p><div class="code"><div class="code-filename">view.tpl.html</div><pre><code class="language-html">  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">ng-controller</span>=<span class="hljs-value">"myCtrl"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">ul</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">ng-repeat</span>=<span class="hljs-value">"user in users"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre><p></p></div><div class="code"><div class="code-filename">myCtrl.js</div><pre><code class="language-javascript">angular.module(<span class="hljs-string">'app'</span>).controller(<span class="hljs-string">'myCtrl'</span>, [
+  <span class="hljs-string">'$scope'</span>, <span class="hljs-string">'$http'</span>,
+  <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">($scope, $http)</span> </span>{
+    $http.get(<span class="hljs-string">'users'</span>).then(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(users)</span> </span>{
+      $scope.users = users;
+    });
+  }
+]);</code></pre><p></p></div><p>Si vous exécutez ce petit code, il marchera et même très bien. Mais je vais vous montrer comment le transformer pour qu&#39;il marche toujours si : vous réutilisez cette vue dans une autre partie de l&#39;application, ou encore si vous souhaitez réutiliser la liste des utilisateurs dans une autre partie de votre code. Ce qui entre nous correspond à 90% des cas dans de &quot;vraies applis&quot; mais malheureusement à 0% des tutos sur le net.</p><div class="code"><div class="code-filename">myCtrl.js</div><pre><code class="language-javascript">angular.module(<span class="hljs-string">'app'</span>).controller(<span class="hljs-string">'myCtrl'</span>, [
+  <span class="hljs-string">'$scope'</span>, <span class="hljs-string">'mySrv'</span>,
+  <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">($scope, mySrv)</span> </span>{
+    mySrv.getUsers().then(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(users)</span> </span>{
+      $scope.users = users;
+    });
+  }
+]);</code></pre><p></p></div><div class="code"><div class="code-filename">mySrv.js</div><pre><code class="language-javascript">angular.module(<span class="hljs-string">'app'</span>).factory(<span class="hljs-string">'mySrv'</span>, [
+  <span class="hljs-string">'$http'</span>,
+  <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">($http)</span> </span>{
+
+    <span class="hljs-keyword">var</span> usersPromise;
+
+    <span class="hljs-keyword">return</span> {
+      getUsers: <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getUsers</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">if</span>(usersPromise === <span class="hljs-literal">undefined</span>) {
+          usersPromise = $http.get(<span class="hljs-string">'users'</span>);
+        }
+        <span class="hljs-keyword">return</span> usersPromise;
+      }
+    }
+  }
+]);</code></pre><p></p></div><p>En déplaçant simplement l&#39;appel au serveur dans un service et en retenant la promesse, j&#39;ai mis en cache mes utilisateurs. Ainsi je peux appeler dans toute mon application <code>mySrv.getUsers()</code> pour récupérer ma liste.</p><p>Cerise sur le gateau, en utilisant un service je rends très facile son test. Vous allez me dire que pour le moment il n&#39;y a pas grand chose à tester. Qu&#39;à cela ne tienne, imaginons que nous souhaitions ajouter un avatar par défaut si notre utilisateur n&#39;en a pas, un compte du nombre de messages postés et pourquoi pas le temps depuis sa dernière connexion.</p><div class="code"><div class="code-filename">mySrv.js</div><pre><code class="language-javascript">angular.module(<span class="hljs-string">'app'</span>).factory(<span class="hljs-string">'mySrv'</span>, [
+  <span class="hljs-string">'$http'</span>, <span class="hljs-string">'UserCst'</span>,
+  <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">($http, userCst)</span> </span>{
+
+    <span class="hljs-keyword">var</span> usersPromise;
+
+    <span class="hljs-keyword">return</span> {
+      getUsers: <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getUsers</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">if</span>(usersPromise === <span class="hljs-literal">undefined</span>) {
+          usersPromise = $http.get(<span class="hljs-string">'users'</span>).then(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(users)</span> </span>{
+            users.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(user)</span> </span>{
+              user.avatar = user.avatar || userCst.defaultAvatar;
+              user.nbComments = user.comments.length;
+              <span class="hljs-keyword">var</span> lastCon = user.connexions[user.connexions.length-<span class="hljs-number">1</span>];
+              user.lastConnexion = moment(lastCon).fromNow();
+            });
+            <span class="hljs-keyword">return</span> users;
+          });
+        }
+        <span class="hljs-keyword">return</span> usersPromise;
+      }
+    }
+  }
+]);</code></pre><p></p></div><p>Ce n&#39;est pas mal, mais ce code n&#39;est pas très explicite. En d&#39;autres termes, je dois lire le contenu de ces lignes pour comprendre ce qu&#39;il fait. Certe je pourrai commenter cette fonction en expliquant ce qu&#39;elle fait, mais personnellment, je préfère réserver mes commentaires pour des parties techniques.</p><p>Au lieu de commenter je vais couper en plus petits bouts. J&#39;aime bien le principe d&#39;une classe pour une chose; fait une seule chose mais fait le bien.</p><div class="code"><div class="code-filename">ServerSrv.js</div><pre><code class="language-javascript">angular.module(<span class="hljs-string">'app'</span>).factory(<span class="hljs-string">'ServerSrv'</span>, [
+  <span class="hljs-string">'$http'</span>,
+  <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">($http)</span> </span>{
+
+    <span class="hljs-keyword">return</span> {
+      get: <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">get</span><span class="hljs-params">(url)</span> </span>{
+        <span class="hljs-keyword">return</span> $http.get(url);
+      }
+    };
+
+  }
+]);</code></pre><p></p></div><div class="code"><div class="code-filename">UserSrv.js</div><pre><code class="language-javascript">angular.module(<span class="hljs-string">'app'</span>).factory(<span class="hljs-string">'UserSrv'</span>, [
+  <span class="hljs-string">'ServerSrv'</span>, <span class="hljs-string">'UserCst'</span>, <span class="hljs-string">'UserConfigSrv'</span>,
+  <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(serverSrv, userCst, userConfigSrv)</span> </span>{
+
+    <span class="hljs-keyword">return</span> {
+      getUsers: <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getUsers</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> serverSrv.get(userCst.url).then(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(users)</span> </span>{
+            users.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(user)</span> </span>{
+                userConfigSrv.config(user);
+            });
+        });
+      }
+    };
+
+  }
+]);</code></pre><p></p></div><p>Au lieu de créer un service UserConfigSrv, j&#39;aurai pu faire une simple fonction à ce niveau là. Mais imaginons que je souhaite réutiliser cette fonction (qui configure un avatar, un nombre de commentaires et la dernière connexion) dans un service d&#39;inscription. Je ne pourrai pas, sauf à la rendre publique. Mais alors, au milieu des fonctions de get, update ou delete j&#39;aurai une configuration qui n&#39;aura rien à voir. Je préfère donc la sortir dans son propre service. De plus, en réalisant cette opération, il sera bien plus facile de tester (oui oui rappelez-vous la cerise de toute à l&#39;heure) le métier de cette mini-application à savoir la configuraiton de mon utilisateur.</p><div class="code"><div class="code-filename">UserConfigSrv.js</div><pre><code class="language-javascript">angular.module(<span class="hljs-string">'app'</span>).factory(<span class="hljs-string">'UserConfigSrv'</span>, [
+  <span class="hljs-string">'UserCst'</span>,
+  <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(userCst)</span> </span>{
+
+    <span class="hljs-keyword">return</span> {
+      config: <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">config</span><span class="hljs-params">(user)</span> </span>{
+        user.avatar = user.avatar || userCst.defaultAvatar;
+        user.nbComments = user.comments.length;
+        <span class="hljs-keyword">var</span> lastCon = user.connexions[user.connexions.length-<span class="hljs-number">1</span>];
+        user.lastConnexion = moment(lastCon).fromNow();
+      }
+    };
+
+  }
+]);</code></pre><p></p></div><p>Ainsi je peux très facilement tester les quelques lignes &quot;métier&quot; de mon application. Oh bien sûr, ce n&#39;est pas énorme, mais si vous appliquez ce pattern à toute votre application, il sera tout aussi facile de maintenir et tester vos parties vraiment essentielles. Tout le reste n&#39;est que technique et là dessus AngularJs le fait bien mieux que vous !</p><h2 id="en-image">En image</h2><p>Pour ceux, qui comme moi, aime bien avoir une vue d&#39;ensemble, voici quelques schémas. Nous sommes donc parti d&#39;une situation relativement simple :</p><center class="brodered-image"><img src="/assets/images/article/angularproposalarchitecture/angular-proposal-architecture-simple.png"></center><p>Puis nous avons ajouter un service afin de gérer un petit cache de nos utilisateurs. De plus ça nous a permis de pouvoir tester plus facilement notre application.</p><center class="brodered-image"><img src="/assets/images/article/angularproposalarchitecture/angular-proposal-architecture-first-srv.png"></center><p>Enfin nous avons réalisé une vrai architecture d&#39;application, où chaque fichier (et donc entité javascript) fait une seule chose mais la fait bien. Si un bug surgit dans notre application il devient alors plus facile d&#39;en déduire la source. Si c&#39;est un bug visuel <code>myCtrl</code> sera en cause, un bug métier lié à la vue proviendra de <code>mySrv</code>, un pur bug métier de <code>UserSrv</code> et enfin un bug réseau de <code>ServerSrv</code>. Mais étant donné que chaque partie sera testée il n&#39;y aura pas de bug ;). De plus chaque brique est réutilisable pour une autre partie de notre application.</p><center class="brodered-image"><img src="/assets/images/article/angularproposalarchitecture/angular-proposal-architecture-complexe.png"></center><h2 id="allons-un-peu-plus-loin">Allons un peu plus loin</h2><p>Dans toutes mes applications j&#39;interdis d&#39;avoir plus de 2 injections dans les controllers. Ceux-ci sont toujours $scope et un service réservé à cette vue. Tout simplement car sur l&#39;exemple ci-dessus mySrv devrait être userSrv ou quelque chose comme ça (et donc mySrv devrait appeler ce userSrv qui lui même appellerait networkSrv). Cela permet de réellement séparer la vue du métier, car sans l&#39;accès à $routeParams, $cookie ou je ne sais quoi d&#39;autre le développeur est bien obligé de déplacer la logique métier.</p><p>Dans ce controller il ne reste alors plus que quelques lignes de code servant essentiellement à faire le raccord entre le code html et le monde d&#39;AngularJs. Les services de vues permettent quant à eux de faire le raccord entre notre vue et le reste de l&#39;application.</p><p>C&#39;est un peu dur au début, beaucoup ont pesté après moi, mais en général les développeurs comprennent vite l&#39;intérêt d&#39;une telle architecture après leur premier refactor dans une &quot;vraie application&quot; javascript !</p></div></div></body></html>
