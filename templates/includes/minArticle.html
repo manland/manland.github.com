@@ -6,14 +6,21 @@
 	{{/if}}
 		<h2 class="article-title">{{ data.title }}</h2>
 		<div class="publish-date">{{moment data.date format="MMM YYYY"}}</div>
+	</a>
 		{{#each data.tags }}
 			<a class="tag" href="/index.html#{{this}}">{{this}}</a>
 		{{/each}}
 		<div class="article-min-resume">{{ data.resume }}</div>
 		{{#if data.images}}
-            <div class="img-container">
-              <img src="/assets/images/{{data.images.[0]}}">
-            </div>
+			{{#if data.directLink}}
+				<a class="article-global-link" href="{{ data.directLink }}" target="_blank">
+			{{else}}
+				<a class="article-global-link" href="{{ relativeLink }}">
+			{{/if}}
+	            <div class="img-container">
+	              <img src="/assets/images/{{data.images.[0]}}">
+	            </div>
+            </a>
       	{{/if}}
       	<span class="article-category {{data.categories.[0]}}"></span>
 		<div class="categories">
@@ -21,5 +28,5 @@
 			<a class="category" href="/index.html#{{this}}">{{this}}</a>
 		{{/each}}
 		</div>
-	</a>
+	
 </article>

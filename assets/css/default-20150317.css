@@ -77,6 +77,7 @@ header {
 	.presentation-name {
 		height: 100%;
 		vertical-align: middle;
+		padding-left: 10px;
 	}
 
 	.presentation-baseline {
