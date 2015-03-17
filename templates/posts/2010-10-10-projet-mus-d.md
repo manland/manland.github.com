@@ -14,5 +14,5 @@ Réalisé pour le TER de la première année de master informatique, ce framewor
 
 <div class="container-link">
   <a href="http://mus-d.lydiman.net" target="_blank">Site</a>
-  <a href="http://code.google.com/p/mus-d/" target="_blank">Google code</a>
+  <a href="https://github.com/manland/mus-d" target="_blank">Github</a>
 </div>
