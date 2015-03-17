@@ -1,5 +1,5 @@
 <div class="container-img">
-	<img id="image" src="/assets/images/{{page.images.[0]}}" alt="{{ page.title }} screenshot" />
+	<img id="image" src="/assets/images/{{page.images.[0]}}" alt="{{ page.title }} screenshot" onclick='GALLERY.showBig()' />
 	{{#greater page.images.length 1}}
 	<div class="container-links-img">
 		{{#each page.images}}
