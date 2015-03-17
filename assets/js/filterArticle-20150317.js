@@ -19,7 +19,7 @@
           if(categories[c].innerHTML.search(hash) === -1) {
             articles[i].style.display = 'none';
           } else {
-            articles[i].style.display = 'block';
+            articles[i].style.display = '';
             found = true;
           }
         }
@@ -29,7 +29,7 @@
             if(tags[c].innerHTML.search(hash) === -1) {
               articles[i].style.display = 'none';
             } else {
-              articles[i].style.display = 'block';
+              articles[i].style.display = '';
               found = true;
             }
           }
